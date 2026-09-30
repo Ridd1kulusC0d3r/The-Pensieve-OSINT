@@ -10,30 +10,14 @@ on:
       - "**/*.html"
       - "knowledge/**"
       - "data/**"
+      - "site/**"
+      - "scripts/**"
       - ".github/workflows/link-check.yml"
 
 permissions:
   contents: read
 
 jobs:
-  links:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7
-      - name: Check documentation and site links
-        uses: lycheeverse/lychee-action@v2
-        with:
-          args: >-
-            --verbose
-            --no-progress
-            --accept 200,202,206,401,403,405,429,522
-            --exclude 'https://timetravel.mementoweb.org/'
-            --exclude 'https://www.webarchive.org.uk/'
-            --exclude 'https://bgpview.io/'
-            './**/*.md'
-            './site/**/*.html'
-          fail: true
-
   knowledge:
     runs-on: ubuntu-latest
     steps:
@@ -48,4 +32,28 @@ jobs:
           test -s site/data/playbooks.json
           test -s site/data/graph.json
           test -s site/llms.txt
+          test -s site/llms-full.txt
           test -s site/ai-index.json
+          test -s site/sitemap.xml
+
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Build generated site files before link validation
+        run: python scripts/build_catalog.py
+      - name: Check documentation and site links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --accept 200,202,206,401,403,405,429,522
+            --exclude 'https://timetravel.mementoweb.org/'
+            --exclude 'https://www.webarchive.org.uk/'
+            --exclude 'https://bgpview.io/'
+            --exclude '^https://ridd1kulusc0d3r\.github\.io/The-Pensieve-OSINT/'
+            --exclude '^https://github\.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/tree/main/memory'
+            './**/*.md'
+            './site/**/*.html'
+          fail: true
