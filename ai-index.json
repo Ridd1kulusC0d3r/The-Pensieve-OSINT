@@ -33,7 +33,11 @@
     "playbooks": "knowledge/playbooks.json",
     "taxonomy": "knowledge/int-taxonomy.json",
     "relations": "knowledge/relations.json",
-    "schema": "knowledge/schema.json"
+    "schema": "knowledge/schema.json",
+    "source_quality": "knowledge/source-quality.json",
+    "inference_rules": "knowledge/inference-rules.json",
+    "synonyms": "knowledge/synonyms.json",
+    "questions": "knowledge/questions.json"
   },
   "human_entrypoints": {
     "readme": "README.md",
