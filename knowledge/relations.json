@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "relations": [
+    {
+      "from": "the-pensieve-osint",
+      "type": "routes_to",
+      "to": "mineiro"
+    },
+    {
+      "from": "the-pensieve-osint",
+      "type": "routes_to",
+      "to": "tocaia"
+    },
+    {
+      "from": "the-pensieve-osint",
+      "type": "routes_to",
+      "to": "osint-checklist"
+    },
+    {
+      "from": "the-pensieve-osint",
+      "type": "routes_to",
+      "to": "fio"
+    },
+    {
+      "from": "the-pensieve-osint",
+      "type": "routes_to",
+      "to": "tropeiro"
+    },
+    {
+      "from": "mineiro",
+      "type": "specializes_in",
+      "to": "username"
+    },
+    {
+      "from": "fio",
+      "type": "specializes_in",
+      "to": "brazil-public-records"
+    },
+    {
+      "from": "tropeiro",
+      "type": "specializes_in",
+      "to": "ioc"
+    },
+    {
+      "from": "tocaia",
+      "type": "supports_analysis_of",
+      "to": "absence-vs-data-gap"
+    },
+    {
+      "from": "osint-checklist",
+      "type": "supports",
+      "to": "evidence-and-reporting"
+    }
+  ]
+}
