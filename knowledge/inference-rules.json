@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "rules": [
+    {
+      "id": "username-not-identity",
+      "observation": "same or similar username",
+      "must_not_infer": "same real-world identity",
+      "corroborate_with": [
+        "explicit cross-link",
+        "platform-native metadata",
+        "timeline consistency",
+        "independent media/profile signals"
+      ]
+    },
+    {
+      "id": "ip-not-owner",
+      "observation": "same IP or hosting provider",
+      "must_not_infer": "same owner/operator",
+      "corroborate_with": [
+        "registration context",
+        "DNS history",
+        "certificates",
+        "explicit organization records"
+      ]
+    },
+    {
+      "id": "address-not-control",
+      "observation": "same corporate address",
+      "must_not_infer": "common ownership or operational coordination",
+      "corroborate_with": [
+        "officers",
+        "historical filings",
+        "contact details",
+        "intermediary/virtual-office check"
+      ]
+    },
+    {
+      "id": "visual-match-not-identity",
+      "observation": "similar avatar/image",
+      "must_not_infer": "same person or place",
+      "corroborate_with": [
+        "reverse-image provenance",
+        "metadata",
+        "landmarks",
+        "independent context"
+      ]
+    },
+    {
+      "id": "reputation-not-attribution",
+      "observation": "malicious/reputation label",
+      "must_not_infer": "specific threat actor attribution",
+      "corroborate_with": [
+        "original reporting",
+        "behavioral evidence",
+        "infrastructure history",
+        "multiple independent sources"
+      ]
+    },
+    {
+      "id": "no-result-not-absence",
+      "observation": "no result returned",
+      "must_not_infer": "artifact/event does not exist",
+      "corroborate_with": [
+        "coverage assessment",
+        "alternative sources",
+        "archives",
+        "collection error review"
+      ]
+    },
+    {
+      "id": "many-urls-not-independent",
+      "observation": "multiple pages repeat a claim",
+      "must_not_infer": "independent corroboration",
+      "corroborate_with": [
+        "publication lineage",
+        "original documents",
+        "distinct reporting/evidence"
+      ]
+    },
+    {
+      "id": "archive-time-not-publish-time",
+      "observation": "archive capture timestamp",
+      "must_not_infer": "original publication timestamp",
+      "corroborate_with": [
+        "page metadata",
+        "earlier captures",
+        "first-party publication records"
+      ]
+    }
+  ]
+}
