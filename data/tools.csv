@@ -5,7 +5,7 @@ meta,Awesome OSINT,https://github.com/jivoi/awesome-osint,open-source,multiple,d
 meta,Awesome OSINT Repositories,https://github.com/osintshifu/awesome-osint-repos,open-source,multiple,discover,global,active
 meta,OSINT.dev,https://osint.dev/,free,multiple,discover,global,active
 meta,IntelTechniques Search Tools,https://inteltechniques.com/tools/,free,multiple,discover,global,active
-meta,OSINT Combine,https://www.osintcombine.com/tools,freemium,multiple,discover,global,active
+meta,OSINT Combine,https://www.osintcombine.com/free-osint-tools,freemium,multiple,discover,global,active
 search,Google,https://www.google.com/,free,keyword|url|domain,discover,global,active
 search,Bing,https://www.bing.com/,free,keyword|image,discover,global,active
 search,Brave Search,https://search.brave.com/,free,keyword|url,discover,global,active
@@ -13,7 +13,7 @@ search,DuckDuckGo,https://duckduckgo.com/,free,keyword|url,discover,global,activ
 search,Mojeek,https://www.mojeek.com/,free,keyword|url,discover,global,active
 search,Yandex,https://yandex.com/,free,keyword|image,discover,global,active
 search,Google Dataset Search,https://datasetsearch.research.google.com/,free,dataset|keyword,discover,global,active
-search,GDELT,https://www.gdeltproject.org/,free,keyword|event,collect,global,active
+search,GDELT,https://gdeltproject.org/,free,keyword|event,collect,global,active
 archive,Wayback Machine,https://web.archive.org/,free,url|domain,verify,global,active
 archive,Common Crawl,https://commoncrawl.org/,free,url|domain|dataset,collect,global,active
 archive,Arquivo.pt,https://arquivo.pt/,free,url|keyword,verify,global,active
@@ -22,7 +22,7 @@ identity,Mineiro Username Intelligence,https://github.com/Ridd1kulusC0d3r/Mineir
 identity,Sherlock,https://github.com/sherlock-project/sherlock,open-source,username,collect,global,active
 identity,Maigret,https://github.com/soxoj/maigret,open-source,username,collect,global,active
 identity,WhatsMyName,https://github.com/WebBreacher/WhatsMyName,open-source,username,collect,global,active
-identity,Blackbird,https://github.com/p1ngul1n0/blackbird,open-source,username|email,collect,global,active
+identity,Blackbird,https://github.com/antoniaci/blackbird,open-source,username|email,collect,global,active
 identity,GHunt,https://github.com/mxrch/GHunt,open-source,email,collect,global,active
 identity,Holehe,https://github.com/megadose/holehe,open-source,email,collect,global,active
 identity,Epieos,https://epieos.com/,freemium,email|phone,collect,global,active
@@ -53,20 +53,20 @@ cti,URLhaus,https://urlhaus.abuse.ch/,free,url|domain,collect,global,active
 cti,MalwareBazaar,https://bazaar.abuse.ch/,free,hash|malware,collect,global,active
 cti,Pulsedive,https://pulsedive.com/,freemium,ioc,collect,global,active
 cti,MISP,https://www.misp-project.org/,open-source,ioc|event,analyze,global,active
-cti,OpenCTI,https://www.opencti.io/,open-source,ioc|entity|relationship,analyze,global,active
+cti,OpenCTI,https://github.com/OpenCTI-Platform/opencti,open-source,ioc|entity|relationship,analyze,global,active
 cti,IntelOwl,https://github.com/intelowlproject/IntelOwl,open-source,ioc,collect|enrich,global,active
 cti,MITRE ATT&CK,https://attack.mitre.org/,free,technique|actor|software,analyze,global,active
 cti,MITRE D3FEND,https://d3fend.mitre.org/,free,technique,analyze,global,active
-media,Google Lens,https://lens.google/,free,image,verify,global,active
-media,Bing Visual Search,https://www.bing.com/visualsearch,free,image,verify,global,active
+media,Google Lens,https://search.google/ways-to-search/lens/,free,image,verify,global,active
+media,Bing Visual Search,https://www.microsoft.com/bing/visual-search,free,image,verify,global,active
 media,Yandex Images,https://yandex.com/images/,free,image,verify,global,active
 media,TinEye,https://tineye.com/,freemium,image,verify,global,active
 media,ExifTool,https://exiftool.org/,open-source,file|image|document,collect|verify,global,active
-media,InVID Verification Plugin,https://www.invid-project.eu/tools-and-services/invid-verification-plugin/,free,image|video,verify,global,active
+media,InVID Verification Plugin,https://weverify.eu/verification-plugin/,free,image|video,verify,global,active
 media,Forensically,https://29a.ch/photo-forensics/,free,image,verify,global,active
 media,FFmpeg,https://ffmpeg.org/,open-source,video|audio,transform,global,active
 geo,Google Maps,https://maps.google.com/,free,location|coordinates,verify,global,active
-geo,Google Earth,https://earth.google.com/,free,location|coordinates,verify,global,active
+geo,Google Earth,https://earth.google.com/web/,free,location|coordinates,verify,global,active
 geo,OpenStreetMap,https://www.openstreetmap.org/,open-source,location|coordinates,collect|verify,global,active
 geo,Overpass Turbo,https://overpass-turbo.eu/,open-source,location|feature,collect,global,active
 geo,Mapillary,https://www.mapillary.com/,free,location|image,verify,global,active
@@ -79,7 +79,7 @@ satellite,NASA Worldview,https://worldview.earthdata.nasa.gov/,free,coordinates|
 satellite,USGS EarthExplorer,https://earthexplorer.usgs.gov/,free,coordinates|area,collect,global,active
 satellite,OpenTopography,https://opentopography.org/,free,coordinates|area,collect,global,active
 corporate,OpenCorporates,https://opencorporates.com/,freemium,company|officer,collect,global,active
-corporate,GLEIF LEI Search,https://www.gleif.org/en/lei-search,free,company|lei,verify,global,active
+corporate,GLEIF LEI Search,https://www.gleif.org/en/lei-data/lei-search/about-lei-search/,free,company|lei,verify,global,active
 corporate,SEC EDGAR,https://www.sec.gov/edgar/search/,free,company|filing,collect,us,active
 corporate,Companies House,https://find-and-update.company-information.service.gov.uk/,free,company|officer,collect,uk,active
 corporate,OCCRP Aleph,https://aleph.occrp.org/,freemium,person|company|document,collect,global,active
@@ -123,11 +123,11 @@ monitoring,Google Alerts,https://www.google.com/alerts,free,keyword,monitor,glob
 brazil,FIO Lab,https://github.com/Ridd1kulusC0d3r/FIO,open-source,identifier|public-record,collect|correlate,brazil,active
 brazil,dados.gov.br,https://dados.gov.br/,free,dataset|keyword,discover,brazil,active
 brazil,Portal da Transparência,https://portaldatransparencia.gov.br/,free,person|company|public-record,collect,brazil,active
-brazil,Receita Federal CNPJ Open Data,https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/cnpj/dados-abertos-cnpj,free,cnpj|company|dataset,collect,brazil,active
+brazil,Receita Federal CNPJ Open Data,https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros,free,cnpj|company|dataset,collect,brazil,active
 brazil,IBGE,https://www.ibge.gov.br/,free,location|dataset|statistics,collect,brazil,active
 brazil,TSE Dados Abertos,https://dadosabertos.tse.jus.br/,free,dataset|candidate|party,collect,brazil,active
 brazil,CVM Dados Abertos,https://dados.cvm.gov.br/,free,company|filing|dataset,collect,brazil,active
-brazil,Querido Diário,https://queridodiario.ok.org.br/,free,keyword|municipality|document,collect,brazil,active
+brazil,Querido Diário,https://queridodiario.org.br/,free,keyword|municipality|document,collect,brazil,active
 brazil,Brasil.IO,https://brasil.io/,free,dataset,collect,brazil,active
 brazil,Base dos Dados,https://basedosdados.org/,freemium,dataset,collect,brazil,active
 latam,CEPALSTAT,https://statistics.cepal.org/portal/cepalstat/,free,dataset|statistics,collect,latam,active
