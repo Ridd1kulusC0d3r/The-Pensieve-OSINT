@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "outputs": [
+    {
+      "id": "profile_candidate",
+      "meaning": "A public account candidate matching an input identifier.",
+      "not_equivalent_to": "identity proof"
+    },
+    {
+      "id": "public_presence",
+      "meaning": "Observed public traces associated with an identifier.",
+      "not_equivalent_to": "ownership or authorship"
+    },
+    {
+      "id": "registration_data",
+      "meaning": "Registry or registration context.",
+      "not_equivalent_to": "current operational control"
+    },
+    {
+      "id": "dns_context",
+      "meaning": "DNS or certificate-related observations.",
+      "not_equivalent_to": "attribution"
+    },
+    {
+      "id": "host_service",
+      "meaning": "Indexed internet service metadata.",
+      "not_equivalent_to": "current exposure"
+    },
+    {
+      "id": "archive_snapshot",
+      "meaning": "Historical capture from an archive.",
+      "not_equivalent_to": "original publication timestamp"
+    },
+    {
+      "id": "visual_match",
+      "meaning": "Potentially related imagery.",
+      "not_equivalent_to": "same person/place without corroboration"
+    },
+    {
+      "id": "geospatial_context",
+      "meaning": "Location-related evidence or constraints.",
+      "not_equivalent_to": "precise geolocation without corroboration"
+    },
+    {
+      "id": "corporate_record",
+      "meaning": "Official or third-party organization record.",
+      "not_equivalent_to": "operational relationship"
+    },
+    {
+      "id": "public_record",
+      "meaning": "Public-sector or public-interest record.",
+      "not_equivalent_to": "complete/current truth"
+    },
+    {
+      "id": "ioc_enrichment",
+      "meaning": "Context about an observable such as IP/domain/URL/hash.",
+      "not_equivalent_to": "actor attribution"
+    },
+    {
+      "id": "threat_context",
+      "meaning": "Defensive cyber threat context.",
+      "not_equivalent_to": "proof of malicious intent"
+    },
+    {
+      "id": "graph_or_timeline",
+      "meaning": "Analytical structure derived from evidence.",
+      "not_equivalent_to": "independent evidence"
+    }
+  ]
+}
