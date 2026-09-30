@@ -8,7 +8,7 @@
 |---|---|---|
 | [dados.gov.br](https://dados.gov.br/) | Governo Federal | federal open-data catalog |
 | [Portal da Transparência](https://portaldatransparencia.gov.br/) | CGU | spending, sanctions, public programs and transparency |
-| [Receita Federal — Dados Abertos CNPJ](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/cnpj/dados-abertos-cnpj) | Receita Federal | public CNPJ datasets |
+| [Receita Federal — Dados Abertos CNPJ](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros) | Receita Federal | public CNPJ datasets |
 | [IBGE](https://www.ibge.gov.br/) | IBGE | geography, statistics, municipalities, economic/demographic context |
 | [IBGE APIs](https://servicodados.ibge.gov.br/api/docs/) | IBGE | programmatic geographic/statistical data |
 | [Banco Central — Dados Abertos](https://dadosabertos.bcb.gov.br/) | BCB | financial/economic datasets |
@@ -16,8 +16,8 @@
 | [TSE Dados Abertos](https://dadosabertos.tse.jus.br/) | TSE | election/candidate/party datasets |
 | [Câmara Dados Abertos](https://dadosabertos.camara.leg.br/) | Câmara dos Deputados | legislative/member data |
 | [Senado Dados Abertos](https://www12.senado.leg.br/dados-abertos) | Senado Federal | legislative data |
-| [PNCP](https://www.gov.br/pncp/) | Governo Federal | public procurement and contracts |
-| [Compras.gov.br](https://www.gov.br/compras/) | Governo Federal | federal procurement |
+| [PNCP](https://www.gov.br/pncp/pt-br) | Governo Federal | public procurement and contracts |
+| [Compras.gov.br](https://www.gov.br/compras/pt-br) | Governo Federal | federal procurement |
 | [DataSUS](https://datasus.saude.gov.br/) | Ministério da Saúde | public health datasets |
 | [CNES](https://cnes.datasus.gov.br/) | Ministério da Saúde | health establishments |
 | [INEP Dados Abertos](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos) | INEP | education datasets |
@@ -25,14 +25,14 @@
 | [INPE TerraBrasilis](https://terrabrasilis.dpi.inpe.br/) | INPE | environmental/geospatial monitoring |
 | [INPE Queimadas](https://terrabrasilis.dpi.inpe.br/queimadas/portal/) | INPE | fire/burn monitoring |
 | [Registro.br](https://registro.br/) | NIC.br | .br domain/RDAP context |
-| [CERT.br](https://www.cert.br/) | NIC.br | incident/security statistics and references |
+| [CERT.br](https://cert.br/) | NIC.br | incident/security statistics and references |
 | [NIC.br Medições](https://medicoes.nic.br/) | NIC.br | Brazilian internet measurement data |
 
 ## Brazil — civic, legal and journalism-oriented open data
 
 | Source | Best use |
 |---|---|
-| [Querido Diário](https://queridodiario.ok.org.br/) | municipal official gazettes |
+| [Querido Diário](https://queridodiario.org.br/) | municipal official gazettes |
 | [Brasil.IO](https://brasil.io/) | cleaned public Brazilian datasets |
 | [Base dos Dados](https://basedosdados.org/) | harmonized public datasets |
 | [MapBiomas](https://mapbiomas.org/) | land-use/environment data |
@@ -69,7 +69,7 @@
 | Argentina | [datos.gob.ar](https://datos.gob.ar/) |
 | Chile | [datos.gob.cl](https://datos.gob.cl/) |
 | Colombia | [datos.gov.co](https://www.datos.gov.co/) |
-| Mexico | [datos.gob.mx](https://datos.gob.mx/) |
+| Mexico | [datos.gob.mx](https://www.datos.gob.mx/) |
 | Peru | [Datos Abiertos](https://www.datosabiertos.gob.pe/) |
 | Uruguay | [Catálogo de Datos Abiertos](https://catalogodatos.gub.uy/) |
 | Paraguay | [Datos Abiertos](https://www.datos.gov.py/) |
@@ -84,7 +84,7 @@
 | [CEPALSTAT](https://statistics.cepal.org/portal/cepalstat/) | Latin American socio-economic statistics |
 | [OAS](https://www.oas.org/) | regional public documents and programs |
 | [OpenCorporates](https://opencorporates.com/) | cross-border company discovery |
-| [GLEIF](https://www.gleif.org/en/lei-search) | legal entity identifiers |
+| [GLEIF](https://www.gleif.org/en/lei-data/lei-search/about-lei-search/) | legal entity identifiers |
 | [OCCRP Aleph](https://aleph.occrp.org/) | cross-border investigative records |
 | [ICIJ Offshore Leaks](https://offshoreleaks.icij.org/) | offshore entity records |
 
