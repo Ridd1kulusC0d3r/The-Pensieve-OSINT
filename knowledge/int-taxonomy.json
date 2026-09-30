@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0.0",
+  "note": "This taxonomy distinguishes disciplines from what can lawfully be practiced with open sources. Context-only entries are conceptual references, not operational collection guidance.",
+  "disciplines": [
+    {
+      "id": "OSINT",
+      "name": "Open Source Intelligence",
+      "open_source_applicability": "full",
+      "description": "Intelligence derived from publicly available information."
+    },
+    {
+      "id": "SOCMINT",
+      "name": "Social Media Intelligence",
+      "open_source_applicability": "full",
+      "description": "Analysis of public social-media information and behavior."
+    },
+    {
+      "id": "GEOINT",
+      "name": "Geospatial Intelligence",
+      "open_source_applicability": "partial",
+      "description": "Geospatial analysis using maps, imagery and location data, including open sources."
+    },
+    {
+      "id": "IMINT",
+      "name": "Imagery Intelligence",
+      "open_source_applicability": "partial",
+      "description": "Analysis of imagery, including publicly available imagery."
+    },
+    {
+      "id": "CYBINT",
+      "name": "Cyber Intelligence",
+      "open_source_applicability": "partial",
+      "description": "Intelligence about cyber infrastructure, threats and behaviors using authorized/public data."
+    },
+    {
+      "id": "CTI",
+      "name": "Cyber Threat Intelligence",
+      "open_source_applicability": "partial",
+      "description": "Defensive intelligence about threat actors, infrastructure, malware and behaviors."
+    },
+    {
+      "id": "FININT",
+      "name": "Financial Intelligence",
+      "open_source_applicability": "partial",
+      "description": "Analysis of lawful public financial, corporate and transaction records."
+    },
+    {
+      "id": "TECHINT",
+      "name": "Technical Intelligence",
+      "open_source_applicability": "partial",
+      "description": "Technical analysis of systems, products or artifacts using lawful public evidence."
+    },
+    {
+      "id": "DOMEX",
+      "name": "Document and Media Exploitation",
+      "open_source_applicability": "partial",
+      "description": "Extraction and analysis of information from lawfully obtained documents and media."
+    },
+    {
+      "id": "HUMINT",
+      "name": "Human Intelligence",
+      "open_source_applicability": "context_only",
+      "description": "Intelligence derived from human sources; included for taxonomy context only."
+    },
+    {
+      "id": "SIGINT",
+      "name": "Signals Intelligence",
+      "open_source_applicability": "context_only",
+      "description": "Intelligence from signals; included for taxonomy context only."
+    },
+    {
+      "id": "MASINT",
+      "name": "Measurement and Signature Intelligence",
+      "open_source_applicability": "context_only",
+      "description": "Technical measurement/signature intelligence; included for taxonomy context only."
+    },
+    {
+      "id": "MEDINT",
+      "name": "Medical Intelligence",
+      "open_source_applicability": "context_only",
+      "description": "Medical intelligence discipline; included for taxonomy context only."
+    }
+  ]
+}
