@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/sitemap.xml
