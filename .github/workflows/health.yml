@@ -1,0 +1,28 @@
+name: Pensieve source health
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 7 * * 2"
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Capture best-effort source health
+        run: python scripts/health_check.py
+      - name: Commit health snapshot when changed
+        run: |
+          if git diff --quiet -- data/health.json data/HEALTH-DIFF.md; then
+            echo "No health changes"
+            exit 0
+          fi
+          git config user.name "pensieve-health[bot]"
+          git config user.email "pensieve-health[bot]@users.noreply.github.com"
+          git add data/health.json data/HEALTH-DIFF.md
+          git commit -m "chore: update source health snapshot"
+          git push
