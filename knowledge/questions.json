@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "templates": [
+    {
+      "id": "next-step",
+      "question": "I have {input}. What should I verify next?",
+      "answer_from": [
+        "knowledge/inputs.json",
+        "knowledge/playbooks.json",
+        "knowledge/tools.json"
+      ]
+    },
+    {
+      "id": "tool-by-input",
+      "question": "Which resources accept {input}?",
+      "answer_from": [
+        "knowledge/tools.json"
+      ]
+    },
+    {
+      "id": "meaning",
+      "question": "What does {output} mean and what does it not prove?",
+      "answer_from": [
+        "knowledge/outputs.json",
+        "knowledge/inference-rules.json"
+      ]
+    },
+    {
+      "id": "regional",
+      "question": "Which sources cover {region}?",
+      "answer_from": [
+        "knowledge/tools.json",
+        "knowledge/sources.json"
+      ]
+    },
+    {
+      "id": "ecosystem",
+      "question": "Which Ridd1kulusC0d3r project specializes in {topic}?",
+      "answer_from": [
+        "knowledge/projects.json",
+        "knowledge/relations.json"
+      ]
+    },
+    {
+      "id": "pitfall",
+      "question": "What common analytical failure applies to {finding}?",
+      "answer_from": [
+        "knowledge/inference-rules.json",
+        "memory/"
+      ]
+    },
+    {
+      "id": "quality",
+      "question": "How should I assess this source?",
+      "answer_from": [
+        "knowledge/source-quality.json"
+      ]
+    }
+  ]
+}
