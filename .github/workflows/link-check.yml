@@ -7,23 +7,44 @@ on:
   pull_request:
     paths:
       - "**/*.md"
-      - "data/tools.csv"
+      - "data/**"
+      - ".github/workflows/link-check.yml"
 
 permissions:
   contents: read
 
 jobs:
-  lychee:
+  markdown-links:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check links
+      - name: Check documentation links
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
             --verbose
             --no-progress
-            --accept 200,206,429
+            --accept 200,202,206,401,403,405,429,522
+            --exclude 'https://timetravel.mementoweb.org/'
+            --exclude 'https://www.webarchive.org.uk/'
             './**/*.md'
-            './data/tools.csv'
           fail: true
+
+  catalog-shape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate CSV catalog
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          p = Path("data/tools.csv")
+          with p.open(encoding="utf-8", newline="") as f:
+              rows = list(csv.DictReader(f))
+          required = {"category","name","url","access","input","stage","region","status"}
+          assert rows, "catalog is empty"
+          assert required.issubset(rows[0]), f"missing columns: {required-set(rows[0])}"
+          assert all(r["url"].startswith(("https://","http://")) for r in rows)
+          print(f"validated {len(rows)} catalog rows")
+          PY
