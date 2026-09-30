@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.0.0",
+  "playbooks": [
+    {
+      "id": "username",
+      "title": "Username investigation",
+      "input": "username",
+      "intent": "Assess public presence without treating a handle match as identity proof.",
+      "steps": [
+        "Normalize the handle and note platform context.",
+        "Run broad username discovery.",
+        "Open only relevant public profiles and preserve provenance.",
+        "Compare profile-native metadata, timelines and public media.",
+        "Record contradictions and alternative explanations.",
+        "Report candidates with confidence, not certainty."
+      ],
+      "recommended": [
+        "Mineiro Username Intelligence",
+        "Sherlock",
+        "Maigret",
+        "WhatsMyName",
+        "Wayback Machine"
+      ],
+      "failure_modes": [
+        "username collision",
+        "recycled handle",
+        "copied avatar",
+        "stale profile"
+      ]
+    },
+    {
+      "id": "domain",
+      "title": "Domain and infrastructure investigation",
+      "input": "domain",
+      "intent": "Build historical and technical context around a domain using passive sources.",
+      "steps": [
+        "Normalize the registrable domain and subdomains.",
+        "Check registration/RDAP context.",
+        "Review certificate transparency and DNS context.",
+        "Check third-party indexed services.",
+        "Review historical web captures.",
+        "Correlate changes by time and avoid equating shared hosting with ownership."
+      ],
+      "recommended": [
+        "ICANN Lookup",
+        "RDAP.org",
+        "crt.sh",
+        "Censys",
+        "Shodan",
+        "urlscan.io",
+        "Wayback Machine"
+      ],
+      "failure_modes": [
+        "privacy-protected registration",
+        "shared hosting",
+        "stale DNS",
+        "CDN masking"
+      ]
+    },
+    {
+      "id": "url",
+      "title": "URL verification",
+      "input": "url",
+      "intent": "Understand a public URL while minimizing direct interaction.",
+      "steps": [
+        "Normalize URL components.",
+        "Prefer passive third-party scan/archive context before direct navigation.",
+        "Review historical captures and reputation context.",
+        "Extract domain and infrastructure pivots.",
+        "Preserve exact observations and timestamps.",
+        "Separate reputation signals from factual page evidence."
+      ],
+      "recommended": [
+        "urlscan.io",
+        "Wayback Machine",
+        "VirusTotal",
+        "AlienVault OTX"
+      ],
+      "failure_modes": [
+        "redirect chains",
+        "shorteners",
+        "dynamic content",
+        "scanner-only artifacts"
+      ]
+    },
+    {
+      "id": "image",
+      "title": "Image verification",
+      "input": "image",
+      "intent": "Assess provenance, reuse and location clues from a lawfully obtained image.",
+      "steps": [
+        "Preserve the original file and hash it.",
+        "Inspect metadata without assuming it is trustworthy.",
+        "Run reverse-image/visual searches.",
+        "Extract visual landmarks and text clues.",
+        "Use map/satellite context to test location hypotheses.",
+        "Document alternative matches and uncertainty."
+      ],
+      "recommended": [
+        "ExifTool",
+        "Google Lens",
+        "TinEye",
+        "Yandex Images",
+        "OpenStreetMap",
+        "Google Earth"
+      ],
+      "failure_modes": [
+        "stripped metadata",
+        "cropping",
+        "mirroring",
+        "AI-generated or edited content",
+        "look-alike locations"
+      ]
+    },
+    {
+      "id": "company",
+      "title": "Company and organization research",
+      "input": "company",
+      "intent": "Corroborate organization identity and public-record relationships.",
+      "steps": [
+        "Normalize legal name, aliases and registry identifiers.",
+        "Start with official registry/filing sources.",
+        "Cross-check international identifiers and third-party indexes.",
+        "Review officers, addresses, filings and procurement records where lawful.",
+        "Test whether shared addresses are intermediaries rather than operational links.",
+        "Build a dated relationship map with source provenance."
+      ],
+      "recommended": [
+        "OpenCorporates",
+        "GLEIF LEI Search",
+        "OCCRP Aleph",
+        "ICIJ Offshore Leaks",
+        "Portal da Transparência"
+      ],
+      "failure_modes": [
+        "same-name entities",
+        "registered agents",
+        "virtual offices",
+        "stale filings"
+      ]
+    },
+    {
+      "id": "document",
+      "title": "Document provenance and extraction",
+      "input": "document",
+      "intent": "Extract and verify information from a lawfully obtained public document.",
+      "steps": [
+        "Preserve original and compute a hash.",
+        "Extract metadata and text.",
+        "OCR only when needed and preserve the original.",
+        "Extract URLs, names, dates and identifiers as candidate pivots.",
+        "Verify claims against primary sources.",
+        "Record transformations and tool versions."
+      ],
+      "recommended": [
+        "ExifTool",
+        "Apache Tika",
+        "OCRmyPDF",
+        "Tesseract OCR",
+        "Tabula",
+        "CyberChef"
+      ],
+      "failure_modes": [
+        "OCR errors",
+        "metadata rewritten by export",
+        "scanned copies",
+        "timezone ambiguity"
+      ]
+    },
+    {
+      "id": "ioc",
+      "title": "Defensive IOC enrichment",
+      "input": "ioc",
+      "intent": "Enrich a defensive observable without turning reputation into attribution.",
+      "steps": [
+        "Classify the IOC type and observation time.",
+        "Query multiple defensive enrichment sources.",
+        "Collect passive infrastructure and historical context.",
+        "Map relevant behaviors to ATT&CK only when evidence supports it.",
+        "Record conflicting labels and freshness.",
+        "Report confidence and explicitly avoid unsupported actor attribution."
+      ],
+      "recommended": [
+        "VirusTotal",
+        "AlienVault OTX",
+        "ThreatFox",
+        "URLhaus",
+        "GreyNoise",
+        "MITRE ATT&CK"
+      ],
+      "failure_modes": [
+        "shared infrastructure",
+        "sinkholes",
+        "reputation lag",
+        "false positives"
+      ]
+    },
+    {
+      "id": "location",
+      "title": "Geolocation verification",
+      "input": "location",
+      "intent": "Test a location hypothesis using public geospatial evidence.",
+      "steps": [
+        "Normalize coordinates/place names.",
+        "Compare multiple map providers.",
+        "Check street-level imagery where lawfully available.",
+        "Use satellite/terrain context.",
+        "Validate sun/shadow or topography only as supporting signals.",
+        "Document imagery dates and alternative locations."
+      ],
+      "recommended": [
+        "OpenStreetMap",
+        "Google Earth",
+        "Mapillary",
+        "SunCalc",
+        "Copernicus Data Space"
+      ],
+      "failure_modes": [
+        "outdated imagery",
+        "seasonal differences",
+        "map label errors",
+        "similar terrain"
+      ]
+    },
+    {
+      "id": "brazil-public-records",
+      "title": "Brazil public-record research",
+      "input": "company",
+      "intent": "Use Brazilian official/open data with identifier normalization and provenance.",
+      "steps": [
+        "Define the legal/ethical purpose and relevant identifier.",
+        "Normalize CNPJ or other public identifiers.",
+        "Prefer Receita/IBGE/official portals before aggregators.",
+        "Cross-check procurement, transparency or sector-specific data only when relevant.",
+        "Treat shared corporate addresses as weak relationship evidence.",
+        "Report source dates, field definitions and gaps."
+      ],
+      "recommended": [
+        "Receita Federal CNPJ Open Data",
+        "Portal da Transparência",
+        "IBGE",
+        "TSE Dados Abertos",
+        "CVM Dados Abertos",
+        "FIO Lab"
+      ],
+      "failure_modes": [
+        "schema changes",
+        "administrative addresses",
+        "stale registry data",
+        "name collisions"
+      ]
+    }
+  ]
+}

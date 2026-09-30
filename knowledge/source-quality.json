@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Evaluate evidence/source characteristics separately from URL reachability.",
+  "dimensions": [
+    {
+      "id": "authority",
+      "question": "How directly authoritative is the source for the claim?",
+      "levels": [
+        "primary-official",
+        "primary-nonofficial",
+        "secondary-expert",
+        "aggregator",
+        "unknown"
+      ]
+    },
+    {
+      "id": "provenance",
+      "question": "Can the analyst trace the information to its origin?",
+      "levels": [
+        "direct",
+        "traceable",
+        "partially-traceable",
+        "opaque"
+      ]
+    },
+    {
+      "id": "freshness",
+      "question": "Is the source current enough for the claim's time scope?",
+      "levels": [
+        "current",
+        "dated-but-fit",
+        "stale-risk",
+        "unknown"
+      ]
+    },
+    {
+      "id": "independence",
+      "question": "Is this genuinely independent corroboration?",
+      "levels": [
+        "independent",
+        "shared-upstream",
+        "likely-copy",
+        "unknown"
+      ]
+    },
+    {
+      "id": "coverage",
+      "question": "How complete is the source for the population/time window?",
+      "levels": [
+        "documented-high",
+        "documented-partial",
+        "unknown",
+        "known-gap"
+      ]
+    },
+    {
+      "id": "reproducibility",
+      "question": "Can another analyst reproduce the observation?",
+      "levels": [
+        "high",
+        "medium",
+        "low",
+        "unknown"
+      ]
+    }
+  ],
+  "rule": "Do not collapse these dimensions into a single magic score unless the use case documents the weighting."
+}

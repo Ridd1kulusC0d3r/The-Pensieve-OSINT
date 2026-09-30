@@ -1,0 +1,3830 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Canonical machine-readable OSINT knowledge catalog for The Pensieve OSINT.",
+  "records": [
+    {
+      "id": "bellingcat-online-investigation-toolkit",
+      "name": "Bellingcat Online Investigation Toolkit",
+      "kind": "tool_or_service",
+      "category": "meta",
+      "url": "https://bellingcat.gitbook.io/toolkit",
+      "access": "free",
+      "inputs": [
+        "multiple"
+      ],
+      "outputs": [
+        "resource_index"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "osint-framework",
+      "name": "OSINT Framework",
+      "kind": "tool_or_service",
+      "category": "meta",
+      "url": "https://osintframework.com/",
+      "access": "free",
+      "inputs": [
+        "multiple"
+      ],
+      "outputs": [
+        "resource_index"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "awesome-osint",
+      "name": "Awesome OSINT",
+      "kind": "tool_or_service",
+      "category": "meta",
+      "url": "https://github.com/jivoi/awesome-osint",
+      "access": "open-source",
+      "inputs": [
+        "multiple"
+      ],
+      "outputs": [
+        "resource_index"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "awesome-osint-repositories",
+      "name": "Awesome OSINT Repositories",
+      "kind": "tool_or_service",
+      "category": "meta",
+      "url": "https://github.com/osintshifu/awesome-osint-repos",
+      "access": "open-source",
+      "inputs": [
+        "multiple"
+      ],
+      "outputs": [
+        "resource_index"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "osintdev",
+      "name": "OSINT.dev",
+      "kind": "tool_or_service",
+      "category": "meta",
+      "url": "https://osint.dev/",
+      "access": "free",
+      "inputs": [
+        "multiple"
+      ],
+      "outputs": [
+        "resource_index"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "inteltechniques-search-tools",
+      "name": "IntelTechniques Search Tools",
+      "kind": "tool_or_service",
+      "category": "meta",
+      "url": "https://inteltechniques.com/tools/",
+      "access": "free",
+      "inputs": [
+        "multiple"
+      ],
+      "outputs": [
+        "resource_index"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "osint-combine",
+      "name": "OSINT Combine",
+      "kind": "tool_or_service",
+      "category": "meta",
+      "url": "https://www.osintcombine.com/free-osint-tools",
+      "access": "freemium",
+      "inputs": [
+        "multiple"
+      ],
+      "outputs": [
+        "resource_index"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "kind": "tool_or_service",
+      "category": "search",
+      "url": "https://www.google.com/",
+      "access": "free",
+      "inputs": [
+        "keyword",
+        "url",
+        "domain"
+      ],
+      "outputs": [
+        "search_results"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "bing",
+      "name": "Bing",
+      "kind": "tool_or_service",
+      "category": "search",
+      "url": "https://www.bing.com/",
+      "access": "free",
+      "inputs": [
+        "keyword",
+        "image"
+      ],
+      "outputs": [
+        "search_results"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "brave-search",
+      "name": "Brave Search",
+      "kind": "tool_or_service",
+      "category": "search",
+      "url": "https://search.brave.com/",
+      "access": "free",
+      "inputs": [
+        "keyword",
+        "url"
+      ],
+      "outputs": [
+        "search_results"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "duckduckgo",
+      "name": "DuckDuckGo",
+      "kind": "tool_or_service",
+      "category": "search",
+      "url": "https://duckduckgo.com/",
+      "access": "free",
+      "inputs": [
+        "keyword",
+        "url"
+      ],
+      "outputs": [
+        "search_results"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "mojeek",
+      "name": "Mojeek",
+      "kind": "tool_or_service",
+      "category": "search",
+      "url": "https://www.mojeek.com/",
+      "access": "free",
+      "inputs": [
+        "keyword",
+        "url"
+      ],
+      "outputs": [
+        "search_results"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "yandex",
+      "name": "Yandex",
+      "kind": "tool_or_service",
+      "category": "search",
+      "url": "https://yandex.com/",
+      "access": "free",
+      "inputs": [
+        "keyword",
+        "image"
+      ],
+      "outputs": [
+        "search_results"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "google-dataset-search",
+      "name": "Google Dataset Search",
+      "kind": "tool_or_service",
+      "category": "search",
+      "url": "https://datasetsearch.research.google.com/",
+      "access": "free",
+      "inputs": [
+        "dataset",
+        "keyword"
+      ],
+      "outputs": [
+        "search_results"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "gdelt",
+      "name": "GDELT",
+      "kind": "tool_or_service",
+      "category": "search",
+      "url": "https://gdeltproject.org/",
+      "access": "free",
+      "inputs": [
+        "keyword",
+        "event"
+      ],
+      "outputs": [
+        "search_results"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "wayback-machine",
+      "name": "Wayback Machine",
+      "kind": "source_or_tool",
+      "category": "archive",
+      "url": "https://web.archive.org/",
+      "access": "free",
+      "inputs": [
+        "url",
+        "domain"
+      ],
+      "outputs": [
+        "archive_snapshot"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [
+        "You need historical versions of a public web page."
+      ],
+      "verify_with": [
+        "other archives",
+        "live primary source where available"
+      ],
+      "caveats": [
+        "Archive coverage is incomplete and timestamps reflect capture, not necessarily publication time."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "common-crawl",
+      "name": "Common Crawl",
+      "kind": "source_or_tool",
+      "category": "archive",
+      "url": "https://commoncrawl.org/",
+      "access": "free",
+      "inputs": [
+        "url",
+        "domain",
+        "dataset"
+      ],
+      "outputs": [
+        "archive_snapshot"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "arquivopt",
+      "name": "Arquivo.pt",
+      "kind": "source_or_tool",
+      "category": "archive",
+      "url": "https://arquivo.pt/",
+      "access": "free",
+      "inputs": [
+        "url",
+        "keyword"
+      ],
+      "outputs": [
+        "archive_snapshot"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "memento-time-travel",
+      "name": "Memento Time Travel",
+      "kind": "source_or_tool",
+      "category": "archive",
+      "url": "https://timetravel.mementoweb.org/",
+      "access": "free",
+      "inputs": [
+        "url"
+      ],
+      "outputs": [
+        "archive_snapshot"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "mineiro-username-intelligence",
+      "name": "Mineiro Username Intelligence",
+      "kind": "project",
+      "category": "identity",
+      "url": "https://github.com/Ridd1kulusC0d3r/Mineiro-OSINT-Extractor",
+      "access": "open-source",
+      "inputs": [
+        "username"
+      ],
+      "outputs": [
+        "profile_candidate",
+        "public_presence"
+      ],
+      "stages": [
+        "collect",
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "specialized_project",
+      "use_when": [
+        "You have a username and need public-presence discovery with auditable evidence."
+      ],
+      "verify_with": [
+        "platform-native source",
+        "temporal consistency",
+        "avatar/media comparison"
+      ],
+      "caveats": [
+        "A username match is a lead, not proof of identity."
+      ],
+      "owner_ecosystem": true,
+      "last_reviewed": "2026-09-30",
+      "description": "Username and public-presence investigation workbench with evidence-oriented correlation."
+    },
+    {
+      "id": "sherlock",
+      "name": "Sherlock",
+      "kind": "tool_or_service",
+      "category": "identity",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "access": "open-source",
+      "inputs": [
+        "username"
+      ],
+      "outputs": [
+        "profile_candidate",
+        "public_presence"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "maigret",
+      "name": "Maigret",
+      "kind": "tool_or_service",
+      "category": "identity",
+      "url": "https://github.com/soxoj/maigret",
+      "access": "open-source",
+      "inputs": [
+        "username"
+      ],
+      "outputs": [
+        "profile_candidate",
+        "public_presence"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "whatsmyname",
+      "name": "WhatsMyName",
+      "kind": "tool_or_service",
+      "category": "identity",
+      "url": "https://github.com/WebBreacher/WhatsMyName",
+      "access": "open-source",
+      "inputs": [
+        "username"
+      ],
+      "outputs": [
+        "profile_candidate",
+        "public_presence"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "blackbird",
+      "name": "Blackbird",
+      "kind": "tool_or_service",
+      "category": "identity",
+      "url": "https://github.com/antoniaci/blackbird",
+      "access": "open-source",
+      "inputs": [
+        "username",
+        "email"
+      ],
+      "outputs": [
+        "profile_candidate",
+        "public_presence"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "ghunt",
+      "name": "GHunt",
+      "kind": "tool_or_service",
+      "category": "identity",
+      "url": "https://github.com/mxrch/GHunt",
+      "access": "open-source",
+      "inputs": [
+        "email"
+      ],
+      "outputs": [
+        "profile_candidate",
+        "public_presence"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "holehe",
+      "name": "Holehe",
+      "kind": "tool_or_service",
+      "category": "identity",
+      "url": "https://github.com/megadose/holehe",
+      "access": "open-source",
+      "inputs": [
+        "email"
+      ],
+      "outputs": [
+        "profile_candidate",
+        "public_presence"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "epieos",
+      "name": "Epieos",
+      "kind": "tool_or_service",
+      "category": "identity",
+      "url": "https://epieos.com/",
+      "access": "freemium",
+      "inputs": [
+        "email",
+        "phone"
+      ],
+      "outputs": [
+        "profile_candidate",
+        "public_presence"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "instaloader",
+      "name": "Instaloader",
+      "kind": "source_or_tool",
+      "category": "social",
+      "url": "https://github.com/instaloader/instaloader",
+      "access": "open-source",
+      "inputs": [
+        "profile",
+        "post"
+      ],
+      "outputs": [
+        "public_content",
+        "profile_metadata"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "youtube-data-api",
+      "name": "YouTube Data API",
+      "kind": "source_or_tool",
+      "category": "social",
+      "url": "https://developers.google.com/youtube/v3",
+      "access": "freemium",
+      "inputs": [
+        "channel",
+        "video",
+        "keyword"
+      ],
+      "outputs": [
+        "public_content",
+        "profile_metadata"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "yt-dlp",
+      "name": "yt-dlp",
+      "kind": "source_or_tool",
+      "category": "social",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "access": "open-source",
+      "inputs": [
+        "url",
+        "video"
+      ],
+      "outputs": [
+        "public_content",
+        "profile_metadata"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "social-searcher",
+      "name": "Social Searcher",
+      "kind": "source_or_tool",
+      "category": "social",
+      "url": "https://www.social-searcher.com/",
+      "access": "freemium",
+      "inputs": [
+        "keyword",
+        "profile"
+      ],
+      "outputs": [
+        "public_content",
+        "profile_metadata"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "icann-lookup",
+      "name": "ICANN Lookup",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://lookup.icann.org/",
+      "access": "free",
+      "inputs": [
+        "domain"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "rdaporg",
+      "name": "RDAP.org",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://rdap.org/",
+      "access": "free",
+      "inputs": [
+        "domain",
+        "ip"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "crtsh",
+      "name": "crt.sh",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://crt.sh/",
+      "access": "free",
+      "inputs": [
+        "domain",
+        "certificate"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [
+        "You need certificate-transparency evidence for domains and subdomains."
+      ],
+      "verify_with": [
+        "certificate transparency issuer logs",
+        "DNS context"
+      ],
+      "caveats": [
+        "Certificate presence does not prove active ownership or current hosting."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "censys",
+      "name": "Censys",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://search.censys.io/",
+      "access": "freemium",
+      "inputs": [
+        "ip",
+        "domain",
+        "certificate"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "shodan",
+      "name": "Shodan",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://www.shodan.io/",
+      "access": "freemium",
+      "inputs": [
+        "ip",
+        "domain",
+        "service"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [
+        "You need context about internet-exposed services already indexed by a third party."
+      ],
+      "verify_with": [
+        "RDAP",
+        "Censys",
+        "Netlas"
+      ],
+      "caveats": [
+        "Coverage and freshness vary; indexed exposure is not proof of current state."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "netlas",
+      "name": "Netlas",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://netlas.io/",
+      "access": "freemium",
+      "inputs": [
+        "ip",
+        "domain",
+        "service"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "securitytrails",
+      "name": "SecurityTrails",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://securitytrails.com/",
+      "access": "freemium",
+      "inputs": [
+        "domain",
+        "dns"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "dnsdumpster",
+      "name": "DNSDumpster",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://dnsdumpster.com/",
+      "access": "free",
+      "inputs": [
+        "domain",
+        "dns"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "viewdnsinfo",
+      "name": "ViewDNS.info",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://viewdns.info/",
+      "access": "freemium",
+      "inputs": [
+        "domain",
+        "ip",
+        "dns"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "urlscanio",
+      "name": "urlscan.io",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://urlscan.io/",
+      "access": "freemium",
+      "inputs": [
+        "url",
+        "domain"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "collect",
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "builtwith",
+      "name": "BuiltWith",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://builtwith.com/",
+      "access": "freemium",
+      "inputs": [
+        "domain",
+        "url"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "wappalyzer",
+      "name": "Wappalyzer",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://www.wappalyzer.com/",
+      "access": "freemium",
+      "inputs": [
+        "url",
+        "domain"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "ripestat",
+      "name": "RIPEstat",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://stat.ripe.net/",
+      "access": "free",
+      "inputs": [
+        "ip",
+        "asn",
+        "prefix"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "bgpview",
+      "name": "BGPView",
+      "kind": "source_or_tool",
+      "category": "infrastructure",
+      "url": "https://bgpview.io/",
+      "access": "free",
+      "inputs": [
+        "ip",
+        "asn",
+        "prefix"
+      ],
+      "outputs": [
+        "registration_data",
+        "dns_context",
+        "host_service"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "virustotal",
+      "name": "VirusTotal",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://www.virustotal.com/",
+      "access": "freemium",
+      "inputs": [
+        "domain",
+        "url",
+        "ip",
+        "hash"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "collect",
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [
+        "You need multi-source context for a URL, domain, IP or hash."
+      ],
+      "verify_with": [
+        "original vendor/source",
+        "URLhaus or ThreatFox where relevant"
+      ],
+      "caveats": [
+        "Community/vendor detections can conflict; do not treat one label as attribution."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "alienvault-otx",
+      "name": "AlienVault OTX",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://otx.alienvault.com/",
+      "access": "free",
+      "inputs": [
+        "domain",
+        "url",
+        "ip",
+        "hash"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "greynoise",
+      "name": "GreyNoise",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://www.greynoise.io/",
+      "access": "freemium",
+      "inputs": [
+        "ip"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "abuseipdb",
+      "name": "AbuseIPDB",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://www.abuseipdb.com/",
+      "access": "freemium",
+      "inputs": [
+        "ip"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "threatfox",
+      "name": "ThreatFox",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://threatfox.abuse.ch/",
+      "access": "free",
+      "inputs": [
+        "ioc"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "urlhaus",
+      "name": "URLhaus",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://urlhaus.abuse.ch/",
+      "access": "free",
+      "inputs": [
+        "url",
+        "domain"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "malwarebazaar",
+      "name": "MalwareBazaar",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://bazaar.abuse.ch/",
+      "access": "free",
+      "inputs": [
+        "hash",
+        "malware"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "pulsedive",
+      "name": "Pulsedive",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://pulsedive.com/",
+      "access": "freemium",
+      "inputs": [
+        "ioc"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "misp",
+      "name": "MISP",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://www.misp-project.org/",
+      "access": "open-source",
+      "inputs": [
+        "ioc",
+        "event"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "analyze"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "opencti",
+      "name": "OpenCTI",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://github.com/OpenCTI-Platform/opencti",
+      "access": "open-source",
+      "inputs": [
+        "ioc",
+        "entity",
+        "relationship"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "analyze"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "intelowl",
+      "name": "IntelOwl",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://github.com/intelowlproject/IntelOwl",
+      "access": "open-source",
+      "inputs": [
+        "ioc"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "collect",
+        "enrich"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "mitre-attck",
+      "name": "MITRE ATT&CK",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://attack.mitre.org/",
+      "access": "free",
+      "inputs": [
+        "technique",
+        "actor",
+        "software"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "analyze"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "mitre-d3fend",
+      "name": "MITRE D3FEND",
+      "kind": "source_or_tool",
+      "category": "cti",
+      "url": "https://d3fend.mitre.org/",
+      "access": "free",
+      "inputs": [
+        "technique"
+      ],
+      "outputs": [
+        "ioc_enrichment",
+        "threat_context"
+      ],
+      "stages": [
+        "analyze"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "google-lens",
+      "name": "Google Lens",
+      "kind": "tool_or_service",
+      "category": "media",
+      "url": "https://search.google/ways-to-search/lens/",
+      "access": "free",
+      "inputs": [
+        "image"
+      ],
+      "outputs": [
+        "media_metadata",
+        "visual_match"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "bing-visual-search",
+      "name": "Bing Visual Search",
+      "kind": "tool_or_service",
+      "category": "media",
+      "url": "https://www.microsoft.com/bing/visual-search",
+      "access": "free",
+      "inputs": [
+        "image"
+      ],
+      "outputs": [
+        "media_metadata",
+        "visual_match"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "yandex-images",
+      "name": "Yandex Images",
+      "kind": "tool_or_service",
+      "category": "media",
+      "url": "https://yandex.com/images/",
+      "access": "free",
+      "inputs": [
+        "image"
+      ],
+      "outputs": [
+        "media_metadata",
+        "visual_match"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "tineye",
+      "name": "TinEye",
+      "kind": "tool_or_service",
+      "category": "media",
+      "url": "https://tineye.com/",
+      "access": "freemium",
+      "inputs": [
+        "image"
+      ],
+      "outputs": [
+        "media_metadata",
+        "visual_match"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "exiftool",
+      "name": "ExifTool",
+      "kind": "tool_or_service",
+      "category": "media",
+      "url": "https://exiftool.org/",
+      "access": "open-source",
+      "inputs": [
+        "file",
+        "image",
+        "document"
+      ],
+      "outputs": [
+        "media_metadata",
+        "visual_match"
+      ],
+      "stages": [
+        "collect",
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "invid-verification-plugin",
+      "name": "InVID Verification Plugin",
+      "kind": "tool_or_service",
+      "category": "media",
+      "url": "https://weverify.eu/verification-plugin/",
+      "access": "free",
+      "inputs": [
+        "image",
+        "video"
+      ],
+      "outputs": [
+        "media_metadata",
+        "visual_match"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "forensically",
+      "name": "Forensically",
+      "kind": "tool_or_service",
+      "category": "media",
+      "url": "https://29a.ch/photo-forensics/",
+      "access": "free",
+      "inputs": [
+        "image"
+      ],
+      "outputs": [
+        "media_metadata",
+        "visual_match"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "ffmpeg",
+      "name": "FFmpeg",
+      "kind": "tool_or_service",
+      "category": "media",
+      "url": "https://ffmpeg.org/",
+      "access": "open-source",
+      "inputs": [
+        "video",
+        "audio"
+      ],
+      "outputs": [
+        "media_metadata",
+        "visual_match"
+      ],
+      "stages": [
+        "transform"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps",
+      "kind": "source_or_tool",
+      "category": "geo",
+      "url": "https://maps.google.com/",
+      "access": "free",
+      "inputs": [
+        "location",
+        "coordinates"
+      ],
+      "outputs": [
+        "geospatial_context"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "google-earth",
+      "name": "Google Earth",
+      "kind": "source_or_tool",
+      "category": "geo",
+      "url": "https://earth.google.com/web/",
+      "access": "free",
+      "inputs": [
+        "location",
+        "coordinates"
+      ],
+      "outputs": [
+        "geospatial_context"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "openstreetmap",
+      "name": "OpenStreetMap",
+      "kind": "source_or_tool",
+      "category": "geo",
+      "url": "https://www.openstreetmap.org/",
+      "access": "open-source",
+      "inputs": [
+        "location",
+        "coordinates"
+      ],
+      "outputs": [
+        "geospatial_context"
+      ],
+      "stages": [
+        "collect",
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "overpass-turbo",
+      "name": "Overpass Turbo",
+      "kind": "source_or_tool",
+      "category": "geo",
+      "url": "https://overpass-turbo.eu/",
+      "access": "open-source",
+      "inputs": [
+        "location",
+        "feature"
+      ],
+      "outputs": [
+        "geospatial_context"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "mapillary",
+      "name": "Mapillary",
+      "kind": "source_or_tool",
+      "category": "geo",
+      "url": "https://www.mapillary.com/",
+      "access": "free",
+      "inputs": [
+        "location",
+        "image"
+      ],
+      "outputs": [
+        "geospatial_context"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "kartaview",
+      "name": "KartaView",
+      "kind": "source_or_tool",
+      "category": "geo",
+      "url": "https://kartaview.org/",
+      "access": "open-source",
+      "inputs": [
+        "location",
+        "image"
+      ],
+      "outputs": [
+        "geospatial_context"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "geonames",
+      "name": "GeoNames",
+      "kind": "source_or_tool",
+      "category": "geo",
+      "url": "https://www.geonames.org/",
+      "access": "free",
+      "inputs": [
+        "place",
+        "coordinates"
+      ],
+      "outputs": [
+        "geospatial_context"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "suncalc",
+      "name": "SunCalc",
+      "kind": "source_or_tool",
+      "category": "geo",
+      "url": "https://www.suncalc.org/",
+      "access": "free",
+      "inputs": [
+        "coordinates",
+        "time"
+      ],
+      "outputs": [
+        "geospatial_context"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "copernicus-data-space",
+      "name": "Copernicus Data Space",
+      "kind": "source_or_tool",
+      "category": "satellite",
+      "url": "https://dataspace.copernicus.eu/",
+      "access": "free",
+      "inputs": [
+        "coordinates",
+        "area"
+      ],
+      "outputs": [
+        "imagery_context"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "sentinel-hub-eo-browser",
+      "name": "Sentinel Hub EO Browser",
+      "kind": "source_or_tool",
+      "category": "satellite",
+      "url": "https://apps.sentinel-hub.com/eo-browser/",
+      "access": "freemium",
+      "inputs": [
+        "coordinates",
+        "area"
+      ],
+      "outputs": [
+        "imagery_context"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "nasa-worldview",
+      "name": "NASA Worldview",
+      "kind": "source_or_tool",
+      "category": "satellite",
+      "url": "https://worldview.earthdata.nasa.gov/",
+      "access": "free",
+      "inputs": [
+        "coordinates",
+        "area"
+      ],
+      "outputs": [
+        "imagery_context"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "usgs-earthexplorer",
+      "name": "USGS EarthExplorer",
+      "kind": "source_or_tool",
+      "category": "satellite",
+      "url": "https://earthexplorer.usgs.gov/",
+      "access": "free",
+      "inputs": [
+        "coordinates",
+        "area"
+      ],
+      "outputs": [
+        "imagery_context"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "opentopography",
+      "name": "OpenTopography",
+      "kind": "source_or_tool",
+      "category": "satellite",
+      "url": "https://opentopography.org/",
+      "access": "free",
+      "inputs": [
+        "coordinates",
+        "area"
+      ],
+      "outputs": [
+        "imagery_context"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "opencorporates",
+      "name": "OpenCorporates",
+      "kind": "source_or_tool",
+      "category": "corporate",
+      "url": "https://opencorporates.com/",
+      "access": "freemium",
+      "inputs": [
+        "company",
+        "officer"
+      ],
+      "outputs": [
+        "corporate_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "gleif-lei-search",
+      "name": "GLEIF LEI Search",
+      "kind": "source_or_tool",
+      "category": "corporate",
+      "url": "https://www.gleif.org/en/lei-data/lei-search/about-lei-search/",
+      "access": "free",
+      "inputs": [
+        "company",
+        "lei"
+      ],
+      "outputs": [
+        "corporate_record"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "sec-edgar",
+      "name": "SEC EDGAR",
+      "kind": "source_or_tool",
+      "category": "corporate",
+      "url": "https://www.sec.gov/edgar/search/",
+      "access": "free",
+      "inputs": [
+        "company",
+        "filing"
+      ],
+      "outputs": [
+        "corporate_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "us",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "companies-house",
+      "name": "Companies House",
+      "kind": "source_or_tool",
+      "category": "corporate",
+      "url": "https://find-and-update.company-information.service.gov.uk/",
+      "access": "free",
+      "inputs": [
+        "company",
+        "officer"
+      ],
+      "outputs": [
+        "corporate_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "uk",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "occrp-aleph",
+      "name": "OCCRP Aleph",
+      "kind": "source_or_tool",
+      "category": "corporate",
+      "url": "https://aleph.occrp.org/",
+      "access": "freemium",
+      "inputs": [
+        "person",
+        "company",
+        "document"
+      ],
+      "outputs": [
+        "corporate_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "icij-offshore-leaks",
+      "name": "ICIJ Offshore Leaks",
+      "kind": "source_or_tool",
+      "category": "corporate",
+      "url": "https://offshoreleaks.icij.org/",
+      "access": "free",
+      "inputs": [
+        "person",
+        "company",
+        "address"
+      ],
+      "outputs": [
+        "corporate_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "opensanctions",
+      "name": "OpenSanctions",
+      "kind": "source_or_tool",
+      "category": "corporate",
+      "url": "https://www.opensanctions.org/",
+      "access": "freemium",
+      "inputs": [
+        "person",
+        "company"
+      ],
+      "outputs": [
+        "corporate_record"
+      ],
+      "stages": [
+        "collect",
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "ads-b-exchange",
+      "name": "ADS-B Exchange",
+      "kind": "source_or_tool",
+      "category": "transport",
+      "url": "https://www.adsbexchange.com/",
+      "access": "freemium",
+      "inputs": [
+        "aircraft",
+        "flight"
+      ],
+      "outputs": [
+        "transport_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "opensky-network",
+      "name": "OpenSky Network",
+      "kind": "source_or_tool",
+      "category": "transport",
+      "url": "https://opensky-network.org/",
+      "access": "freemium",
+      "inputs": [
+        "aircraft",
+        "flight"
+      ],
+      "outputs": [
+        "transport_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "flightradar24",
+      "name": "FlightRadar24",
+      "kind": "source_or_tool",
+      "category": "transport",
+      "url": "https://www.flightradar24.com/",
+      "access": "freemium",
+      "inputs": [
+        "aircraft",
+        "flight"
+      ],
+      "outputs": [
+        "transport_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "marinetraffic",
+      "name": "MarineTraffic",
+      "kind": "source_or_tool",
+      "category": "transport",
+      "url": "https://www.marinetraffic.com/",
+      "access": "freemium",
+      "inputs": [
+        "vessel",
+        "imo",
+        "mmsi"
+      ],
+      "outputs": [
+        "transport_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "vesselfinder",
+      "name": "VesselFinder",
+      "kind": "source_or_tool",
+      "category": "transport",
+      "url": "https://www.vesselfinder.com/",
+      "access": "freemium",
+      "inputs": [
+        "vessel",
+        "imo",
+        "mmsi"
+      ],
+      "outputs": [
+        "transport_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "global-fishing-watch",
+      "name": "Global Fishing Watch",
+      "kind": "source_or_tool",
+      "category": "transport",
+      "url": "https://globalfishingwatch.org/",
+      "access": "free",
+      "inputs": [
+        "vessel",
+        "area"
+      ],
+      "outputs": [
+        "transport_record"
+      ],
+      "stages": [
+        "analyze"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "apache-tika",
+      "name": "Apache Tika",
+      "kind": "source_or_tool",
+      "category": "documents",
+      "url": "https://tika.apache.org/",
+      "access": "open-source",
+      "inputs": [
+        "document",
+        "file"
+      ],
+      "outputs": [
+        "document_text",
+        "file_metadata"
+      ],
+      "stages": [
+        "extract"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "ocrmypdf",
+      "name": "OCRmyPDF",
+      "kind": "source_or_tool",
+      "category": "documents",
+      "url": "https://github.com/ocrmypdf/OCRmyPDF",
+      "access": "open-source",
+      "inputs": [
+        "pdf"
+      ],
+      "outputs": [
+        "document_text",
+        "file_metadata"
+      ],
+      "stages": [
+        "extract"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "tesseract-ocr",
+      "name": "Tesseract OCR",
+      "kind": "source_or_tool",
+      "category": "documents",
+      "url": "https://github.com/tesseract-ocr/tesseract",
+      "access": "open-source",
+      "inputs": [
+        "image",
+        "document"
+      ],
+      "outputs": [
+        "document_text",
+        "file_metadata"
+      ],
+      "stages": [
+        "extract"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "documentcloud",
+      "name": "DocumentCloud",
+      "kind": "source_or_tool",
+      "category": "documents",
+      "url": "https://www.documentcloud.org/",
+      "access": "freemium",
+      "inputs": [
+        "document",
+        "keyword"
+      ],
+      "outputs": [
+        "document_text",
+        "file_metadata"
+      ],
+      "stages": [
+        "collect",
+        "publish"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "tabula",
+      "name": "Tabula",
+      "kind": "source_or_tool",
+      "category": "documents",
+      "url": "https://tabula.technology/",
+      "access": "open-source",
+      "inputs": [
+        "pdf"
+      ],
+      "outputs": [
+        "document_text",
+        "file_metadata"
+      ],
+      "stages": [
+        "extract"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "cyberchef",
+      "name": "CyberChef",
+      "kind": "source_or_tool",
+      "category": "documents",
+      "url": "https://gchq.github.io/CyberChef/",
+      "access": "open-source",
+      "inputs": [
+        "text",
+        "file"
+      ],
+      "outputs": [
+        "document_text",
+        "file_metadata"
+      ],
+      "stages": [
+        "transform"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "google-scholar",
+      "name": "Google Scholar",
+      "kind": "source_or_tool",
+      "category": "research",
+      "url": "https://scholar.google.com/",
+      "access": "free",
+      "inputs": [
+        "keyword",
+        "author",
+        "paper"
+      ],
+      "outputs": [
+        "research_record"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "openalex",
+      "name": "OpenAlex",
+      "kind": "source_or_tool",
+      "category": "research",
+      "url": "https://openalex.org/",
+      "access": "free",
+      "inputs": [
+        "author",
+        "paper",
+        "institution"
+      ],
+      "outputs": [
+        "research_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "semantic-scholar",
+      "name": "Semantic Scholar",
+      "kind": "source_or_tool",
+      "category": "research",
+      "url": "https://www.semanticscholar.org/",
+      "access": "free",
+      "inputs": [
+        "keyword",
+        "author",
+        "paper"
+      ],
+      "outputs": [
+        "research_record"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "crossref",
+      "name": "Crossref",
+      "kind": "source_or_tool",
+      "category": "research",
+      "url": "https://search.crossref.org/",
+      "access": "free",
+      "inputs": [
+        "doi",
+        "paper",
+        "author"
+      ],
+      "outputs": [
+        "research_record"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "orcid",
+      "name": "ORCID",
+      "kind": "source_or_tool",
+      "category": "research",
+      "url": "https://orcid.org/",
+      "access": "free",
+      "inputs": [
+        "researcher"
+      ],
+      "outputs": [
+        "research_record"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "etherscan",
+      "name": "Etherscan",
+      "kind": "source_or_tool",
+      "category": "blockchain",
+      "url": "https://etherscan.io/",
+      "access": "freemium",
+      "inputs": [
+        "address",
+        "transaction",
+        "contract"
+      ],
+      "outputs": [
+        "ledger_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "blockchair",
+      "name": "Blockchair",
+      "kind": "source_or_tool",
+      "category": "blockchain",
+      "url": "https://blockchair.com/",
+      "access": "freemium",
+      "inputs": [
+        "address",
+        "transaction"
+      ],
+      "outputs": [
+        "ledger_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "mempoolspace",
+      "name": "mempool.space",
+      "kind": "source_or_tool",
+      "category": "blockchain",
+      "url": "https://mempool.space/",
+      "access": "open-source",
+      "inputs": [
+        "bitcoin-address",
+        "transaction"
+      ],
+      "outputs": [
+        "ledger_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "spiderfoot",
+      "name": "SpiderFoot",
+      "kind": "tool_or_service",
+      "category": "automation",
+      "url": "https://github.com/smicallef/spiderfoot",
+      "access": "open-source",
+      "inputs": [
+        "multiple"
+      ],
+      "outputs": [
+        "enriched_artifact"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "recon-ng",
+      "name": "Recon-ng",
+      "kind": "tool_or_service",
+      "category": "automation",
+      "url": "https://github.com/lanmaster53/recon-ng",
+      "access": "open-source",
+      "inputs": [
+        "multiple"
+      ],
+      "outputs": [
+        "enriched_artifact"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "sn0int",
+      "name": "sn0int",
+      "kind": "tool_or_service",
+      "category": "automation",
+      "url": "https://github.com/kpcyrd/sn0int",
+      "access": "open-source",
+      "inputs": [
+        "multiple"
+      ],
+      "outputs": [
+        "enriched_artifact"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "maltego",
+      "name": "Maltego",
+      "kind": "tool_or_service",
+      "category": "automation",
+      "url": "https://www.maltego.com/",
+      "access": "freemium",
+      "inputs": [
+        "multiple"
+      ],
+      "outputs": [
+        "enriched_artifact"
+      ],
+      "stages": [
+        "correlate"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "amass",
+      "name": "Amass",
+      "kind": "tool_or_service",
+      "category": "automation",
+      "url": "https://github.com/owasp-amass/amass",
+      "access": "open-source",
+      "inputs": [
+        "domain",
+        "organization"
+      ],
+      "outputs": [
+        "enriched_artifact"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "theharvester",
+      "name": "theHarvester",
+      "kind": "tool_or_service",
+      "category": "automation",
+      "url": "https://github.com/laramies/theHarvester",
+      "access": "open-source",
+      "inputs": [
+        "domain",
+        "email"
+      ],
+      "outputs": [
+        "enriched_artifact"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "gephi",
+      "name": "Gephi",
+      "kind": "tool_or_service",
+      "category": "analysis",
+      "url": "https://gephi.org/",
+      "access": "open-source",
+      "inputs": [
+        "graph"
+      ],
+      "outputs": [
+        "graph_or_timeline"
+      ],
+      "stages": [
+        "analyze"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "cytoscape",
+      "name": "Cytoscape",
+      "kind": "tool_or_service",
+      "category": "analysis",
+      "url": "https://cytoscape.org/",
+      "access": "open-source",
+      "inputs": [
+        "graph"
+      ],
+      "outputs": [
+        "graph_or_timeline"
+      ],
+      "stages": [
+        "analyze"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "neo4j",
+      "name": "Neo4j",
+      "kind": "tool_or_service",
+      "category": "analysis",
+      "url": "https://neo4j.com/",
+      "access": "freemium",
+      "inputs": [
+        "graph"
+      ],
+      "outputs": [
+        "graph_or_timeline"
+      ],
+      "stages": [
+        "correlate",
+        "analyze"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "openrefine",
+      "name": "OpenRefine",
+      "kind": "tool_or_service",
+      "category": "analysis",
+      "url": "https://openrefine.org/",
+      "access": "open-source",
+      "inputs": [
+        "dataset"
+      ],
+      "outputs": [
+        "graph_or_timeline"
+      ],
+      "stages": [
+        "normalize"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "jupyter",
+      "name": "Jupyter",
+      "kind": "tool_or_service",
+      "category": "analysis",
+      "url": "https://jupyter.org/",
+      "access": "open-source",
+      "inputs": [
+        "dataset",
+        "code"
+      ],
+      "outputs": [
+        "graph_or_timeline"
+      ],
+      "stages": [
+        "analyze"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "rsshub",
+      "name": "RSSHub",
+      "kind": "tool_or_service",
+      "category": "monitoring",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "access": "open-source",
+      "inputs": [
+        "url",
+        "feed"
+      ],
+      "outputs": [
+        "change_event"
+      ],
+      "stages": [
+        "monitor"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "huginn",
+      "name": "Huginn",
+      "kind": "tool_or_service",
+      "category": "monitoring",
+      "url": "https://github.com/huginn/huginn",
+      "access": "open-source",
+      "inputs": [
+        "url",
+        "event"
+      ],
+      "outputs": [
+        "change_event"
+      ],
+      "stages": [
+        "monitor"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "changedetectionio",
+      "name": "changedetection.io",
+      "kind": "tool_or_service",
+      "category": "monitoring",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "access": "open-source",
+      "inputs": [
+        "url"
+      ],
+      "outputs": [
+        "change_event"
+      ],
+      "stages": [
+        "monitor"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "google-alerts",
+      "name": "Google Alerts",
+      "kind": "tool_or_service",
+      "category": "monitoring",
+      "url": "https://www.google.com/alerts",
+      "access": "free",
+      "inputs": [
+        "keyword"
+      ],
+      "outputs": [
+        "change_event"
+      ],
+      "stages": [
+        "monitor"
+      ],
+      "region": "global",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "fio-lab",
+      "name": "FIO Lab",
+      "kind": "project",
+      "category": "brazil",
+      "url": "https://github.com/Ridd1kulusC0d3r/FIO",
+      "access": "open-source",
+      "inputs": [
+        "identifier",
+        "public-record"
+      ],
+      "outputs": [
+        "public_record"
+      ],
+      "stages": [
+        "collect",
+        "correlate"
+      ],
+      "region": "brazil",
+      "status": "active",
+      "evidence_role": "specialized_project",
+      "use_when": [
+        "You are working with authorized Brazilian public records and identifiers."
+      ],
+      "verify_with": [],
+      "caveats": [
+        "Shared addresses and administrative records can produce false relationship signals."
+      ],
+      "owner_ecosystem": true,
+      "last_reviewed": "2026-09-30",
+      "description": "Brazilian public-data and identifier analysis laboratory."
+    },
+    {
+      "id": "dadosgovbr",
+      "name": "dados.gov.br",
+      "kind": "source_or_tool",
+      "category": "brazil",
+      "url": "https://dados.gov.br/",
+      "access": "free",
+      "inputs": [
+        "dataset",
+        "keyword"
+      ],
+      "outputs": [
+        "public_record"
+      ],
+      "stages": [
+        "discover"
+      ],
+      "region": "brazil",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "portal-da-transparencia",
+      "name": "Portal da Transparência",
+      "kind": "source_or_tool",
+      "category": "brazil",
+      "url": "https://portaldatransparencia.gov.br/",
+      "access": "free",
+      "inputs": [
+        "person",
+        "company",
+        "public-record"
+      ],
+      "outputs": [
+        "public_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "brazil",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "receita-federal-cnpj-open-data",
+      "name": "Receita Federal CNPJ Open Data",
+      "kind": "source_or_tool",
+      "category": "brazil",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "access": "free",
+      "inputs": [
+        "cnpj",
+        "company",
+        "dataset"
+      ],
+      "outputs": [
+        "public_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "brazil",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "ibge",
+      "name": "IBGE",
+      "kind": "source_or_tool",
+      "category": "brazil",
+      "url": "https://www.ibge.gov.br/",
+      "access": "free",
+      "inputs": [
+        "location",
+        "dataset",
+        "statistics"
+      ],
+      "outputs": [
+        "public_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "brazil",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "tse-dados-abertos",
+      "name": "TSE Dados Abertos",
+      "kind": "source_or_tool",
+      "category": "brazil",
+      "url": "https://dadosabertos.tse.jus.br/",
+      "access": "free",
+      "inputs": [
+        "dataset",
+        "candidate",
+        "party"
+      ],
+      "outputs": [
+        "public_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "brazil",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "cvm-dados-abertos",
+      "name": "CVM Dados Abertos",
+      "kind": "source_or_tool",
+      "category": "brazil",
+      "url": "https://dados.cvm.gov.br/",
+      "access": "free",
+      "inputs": [
+        "company",
+        "filing",
+        "dataset"
+      ],
+      "outputs": [
+        "public_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "brazil",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "querido-diario",
+      "name": "Querido Diário",
+      "kind": "source_or_tool",
+      "category": "brazil",
+      "url": "https://queridodiario.org.br/",
+      "access": "free",
+      "inputs": [
+        "keyword",
+        "municipality",
+        "document"
+      ],
+      "outputs": [
+        "public_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "brazil",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "brasilio",
+      "name": "Brasil.IO",
+      "kind": "source_or_tool",
+      "category": "brazil",
+      "url": "https://brasil.io/",
+      "access": "free",
+      "inputs": [
+        "dataset"
+      ],
+      "outputs": [
+        "public_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "brazil",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "base-dos-dados",
+      "name": "Base dos Dados",
+      "kind": "source_or_tool",
+      "category": "brazil",
+      "url": "https://basedosdados.org/",
+      "access": "freemium",
+      "inputs": [
+        "dataset"
+      ],
+      "outputs": [
+        "public_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "brazil",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "cepalstat",
+      "name": "CEPALSTAT",
+      "kind": "source_or_tool",
+      "category": "latam",
+      "url": "https://statistics.cepal.org/portal/cepalstat/",
+      "access": "free",
+      "inputs": [
+        "dataset",
+        "statistics"
+      ],
+      "outputs": [
+        "public_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "latam",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    },
+    {
+      "id": "idb-data",
+      "name": "IDB Data",
+      "kind": "source_or_tool",
+      "category": "latam",
+      "url": "https://data.iadb.org/",
+      "access": "free",
+      "inputs": [
+        "dataset",
+        "statistics"
+      ],
+      "outputs": [
+        "public_record"
+      ],
+      "stages": [
+        "collect"
+      ],
+      "region": "latam",
+      "status": "active",
+      "evidence_role": "supporting_source",
+      "use_when": [],
+      "verify_with": [],
+      "caveats": [
+        "Availability, coverage and access model can change; verify important findings against primary or independent sources."
+      ],
+      "owner_ecosystem": false,
+      "last_reviewed": "2026-09-30"
+    }
+  ],
+  "migrated_from": "data/tools.csv",
+  "canonical": true
+}

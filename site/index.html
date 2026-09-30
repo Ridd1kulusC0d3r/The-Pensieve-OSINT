@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Pensieve OSINT — Analyst Second Brain</title>
+  <meta name="description" content="A searchable analyst second brain for OSINT, SOCMINT, GEOINT, IMINT and cyber threat intelligence: tools, sources, playbooks, Brazil/LATAM resources and knowledge graph.">
+  <meta name="keywords" content="OSINT, open source intelligence, SOCMINT, GEOINT, IMINT, CTI, threat intelligence, digital investigation, OSINT tools, OSINT framework, Brazil OSINT, LATAM OSINT, knowledge graph, second brain">
+  <link rel="canonical" href="https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/">
+  <link rel="describedby" href="llms.txt">
+  <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/main/README.md">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebSite",
+        "@id":"https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/#website",
+        "name":"The Pensieve OSINT",
+        "url":"https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/",
+        "description":"Analyst second brain for Open-Source Intelligence with structured tools, sources, playbooks, analyst-memory patterns and a knowledge graph.",
+        "inLanguage":["en","pt-BR"],
+        "keywords":["OSINT","SOCMINT","GEOINT","IMINT","CTI","open-source intelligence","digital investigation","knowledge graph","Brazil OSINT","LATAM OSINT"]
+      },
+      {
+        "@type":"Dataset",
+        "name":"The Pensieve OSINT Knowledge Catalog",
+        "url":"https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/ai-index.json",
+        "isAccessibleForFree":true,
+        "description":"Machine-readable catalog of OSINT tools, public sources, playbooks, inputs, outputs and analytical relations."
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<header class="hero">
+  <nav>
+    <a class="brand" href="./">PENSIEVE//OSINT</a>
+    <div class="navlinks">
+      <a href="graph.html">Graph</a>
+      <a href="llms.txt">llms.txt</a>
+      <a href="ai-index.json">AI index</a>
+      <a href="https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT">GitHub</a>
+    </div>
+  </nav>
+  <div class="hero-copy">
+    <p class="eyebrow">ANALYST SECOND BRAIN</p>
+    <h1>Start with what you have.<br>Find what to verify next.</h1>
+    <p class="lead">Search tools, public sources, playbooks and the Ridd1kulusC0d3r OSINT ecosystem by input, function and region. Local-first. Evidence-aware. No case data is sent anywhere by this interface.</p>
+  </div>
+</header>
+
+<main>
+  <section class="panel">
+    <div class="section-head">
+      <div><span class="kicker">ROUTER</span><h2>I have…</h2></div>
+      <p>Select the observable you already have. The interface narrows the arsenal and surfaces a methodology before a tool.</p>
+    </div>
+    <div id="inputChips" class="chips"></div>
+    <div id="playbook" class="playbook hidden"></div>
+  </section>
+
+  <section class="panel">
+    <div class="section-head">
+      <div><span class="kicker">RECALL</span><h2>Search the knowledge base</h2></div>
+      <div id="stats" class="stats">Loading knowledge…</div>
+    </div>
+    <div class="controls">
+      <input id="search" type="search" placeholder="domain, image, Brazil, CTI, archive, username…" autocomplete="off">
+      <select id="category"><option value="">All categories</option></select>
+      <select id="region"><option value="">All regions</option></select>
+      <select id="access"><option value="">All access models</option></select>
+      <label class="check"><input id="pinnedOnly" type="checkbox"> Pinned only</label>
+      <button id="clear" class="ghost">Clear</button>
+    </div>
+    <div id="results" class="grid" aria-live="polite"></div>
+  </section>
+
+  <section class="panel split">
+    <div>
+      <span class="kicker">MEMORY</span>
+      <h2>What the system remembers</h2>
+      <p>Tools and source URLs are only the outer layer. Pensieve also stores failure patterns, output semantics, playbooks, source caveats and project relationships.</p>
+      <a class="button" href="https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/tree/main/memory">Analyst memory</a>
+    </div>
+    <div>
+      <span class="kicker">RELATIONS</span>
+      <h2>Knowledge graph</h2>
+      <p>Explore which tools accept a given input and how specialist projects fit the ecosystem. Graph edges are navigation knowledge, not case evidence.</p>
+      <a class="button" href="graph.html">Open graph explorer</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>The Pensieve OSINT · public methods, structured knowledge and sanitized lessons. Observation ≠ inference.</p>
+</footer>
+<script src="app.js" defer></script>
+</body>
+</html>

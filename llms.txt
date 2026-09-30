@@ -1,0 +1,50 @@
+# The Pensieve OSINT
+
+> An analyst second brain for Open-Source Intelligence: curated tools, public sources, investigation playbooks, analyst-memory patterns, intelligence taxonomy, Brazil/LATAM resources and a machine-readable knowledge graph.
+
+The canonical repository is https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT. The project separates observations from inferences and treats tool results as leads/evidence that require appropriate corroboration.
+
+## Primary entry points
+
+- [Repository README](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/README.md): human-oriented project overview
+- [Second Brain Architecture](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/docs/SECOND-BRAIN.md): memory and retrieval model
+- [OSINT Arsenal](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/docs/ARSENAL.md): curated resources by investigative function
+- [Investigation Router](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/docs/ROUTER.md): input-first routing model
+- [Analyst Workflow](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/docs/WORKFLOW.md): scope to report methodology
+- [AI Discovery Guide](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/docs/AI-DISCOVERY.md): machine-consumption rules
+- [Knowledge Graph](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/docs/KNOWLEDGE-GRAPH.md): node and edge model
+- [Intelligence Taxonomy](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/docs/INTELLIGENCE-TAXONOMY.md): OSINT/SOCMINT/GEOINT/IMINT/CTI and related disciplines
+- [Brazil & LATAM](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/docs/BRAZIL-LATAM.md): regional public-source pack
+
+## Machine-readable knowledge
+
+- [Tools JSON](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/knowledge/tools.json): canonical tool/source records
+- [Inputs JSON](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/knowledge/inputs.json): normalized input types
+- [Outputs JSON](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/knowledge/outputs.json): output semantics and non-equivalences
+- [Sources JSON](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/knowledge/sources.json): selected source cards
+- [Playbooks JSON](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/knowledge/playbooks.json): investigation plans
+- [Projects JSON](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/knowledge/projects.json): Ridd1kulusC0d3r OSINT ecosystem
+- [INT Taxonomy JSON](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/knowledge/int-taxonomy.json): machine-readable taxonomy
+- [Relations JSON](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/knowledge/relations.json): curated semantic edges
+- [Tool JSON Schema](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/knowledge/schema.json): record contract
+- [AI Index](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/ai-index.json): repository manifest
+
+## Analyst memory
+
+- [Analyst Memory](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/tree/main/memory): sanitized reusable lessons and failure patterns
+- [Shared corporate address](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/memory/patterns/shared-corporate-address.md)
+- [Username collision](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/memory/patterns/username-collision.md)
+- [Absence vs data gap](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/memory/patterns/absence-vs-data-gap.md)
+- [Source copying](https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/blob/main/memory/patterns/source-copying.md)
+
+## Specialist projects
+
+- [Mineiro Username Intelligence](https://github.com/Ridd1kulusC0d3r/Mineiro-OSINT-Extractor): username/public-presence workbench
+- [T.O.C.A.I.A](https://github.com/Ridd1kulusC0d3r/tocaia-osint): behavioral OSINT and meaningful-absence methodology
+- [OSINT Checklist](https://github.com/Ridd1kulusC0d3r/osintchecklist): workflow and investigation logbook
+- [F.I.O. Lab](https://github.com/Ridd1kulusC0d3r/FIO): Brazilian public-data and identifier analysis
+- [Tropeiro Intel](https://github.com/Ridd1kulusC0d3r/tropeiro-intel): defensive OSINT / cyber threat intelligence
+
+## Usage constraints
+
+Use lawful public or authorized information. Preserve provenance. Do not treat username matches, shared infrastructure, visual similarity, reputation labels, graph edges or absence as automatic identity/attribution proof. Public repository content must not contain sensitive case data.

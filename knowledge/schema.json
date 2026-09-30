@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/schema/tool.schema.json",
+  "title": "Pensieve OSINT Tool Record",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "category",
+    "url",
+    "inputs",
+    "outputs",
+    "stages",
+    "region",
+    "status",
+    "last_reviewed"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "access": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "region": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "degraded",
+        "account-required",
+        "paid",
+        "api-changed",
+        "abandoned",
+        "replaced",
+        "unknown"
+      ]
+    },
+    "evidence_role": {
+      "type": "string"
+    },
+    "use_when": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "verify_with": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "caveats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "owner_ecosystem": {
+      "type": "boolean"
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

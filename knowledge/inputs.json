@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0.0",
+  "inputs": [
+    {
+      "id": "username",
+      "label": "Username / handle",
+      "normalize": [
+        "exact handle",
+        "case-aware variant when platform requires it"
+      ],
+      "recommended_categories": [
+        "identity",
+        "social",
+        "archive"
+      ],
+      "caveats": [
+        "Handle reuse and collisions are common."
+      ]
+    },
+    {
+      "id": "email",
+      "label": "E-mail address",
+      "normalize": [
+        "lowercase domain",
+        "preserve local-part semantics"
+      ],
+      "recommended_categories": [
+        "identity",
+        "search",
+        "archive"
+      ],
+      "caveats": [
+        "Account-existence signals are not identity proof."
+      ]
+    },
+    {
+      "id": "phone",
+      "label": "Phone number",
+      "normalize": [
+        "E.164",
+        "country code",
+        "area code"
+      ],
+      "recommended_categories": [
+        "identity",
+        "brazil"
+      ],
+      "caveats": [
+        "Numbers can be recycled or reassigned."
+      ]
+    },
+    {
+      "id": "domain",
+      "label": "Domain",
+      "normalize": [
+        "punycode where applicable",
+        "registrable domain",
+        "subdomain"
+      ],
+      "recommended_categories": [
+        "infrastructure",
+        "archive",
+        "cti"
+      ],
+      "caveats": [
+        "Hosting, DNS and ownership can change over time."
+      ]
+    },
+    {
+      "id": "ip",
+      "label": "IP address",
+      "normalize": [
+        "canonical IP",
+        "ASN",
+        "prefix"
+      ],
+      "recommended_categories": [
+        "infrastructure",
+        "cti"
+      ],
+      "caveats": [
+        "Shared infrastructure and dynamic addressing weaken attribution."
+      ]
+    },
+    {
+      "id": "url",
+      "label": "URL",
+      "normalize": [
+        "canonical URL",
+        "domain",
+        "path",
+        "query"
+      ],
+      "recommended_categories": [
+        "archive",
+        "infrastructure",
+        "cti"
+      ],
+      "caveats": [
+        "Opening unknown URLs can create risk; prefer passive third-party context first."
+      ]
+    },
+    {
+      "id": "image",
+      "label": "Image",
+      "normalize": [
+        "original file hash",
+        "dimensions",
+        "metadata"
+      ],
+      "recommended_categories": [
+        "media",
+        "geo",
+        "archive"
+      ],
+      "caveats": [
+        "Visual similarity alone is not identity proof."
+      ]
+    },
+    {
+      "id": "video",
+      "label": "Video",
+      "normalize": [
+        "original URL/file",
+        "key frames",
+        "metadata"
+      ],
+      "recommended_categories": [
+        "media",
+        "geo"
+      ],
+      "caveats": [
+        "Re-encoding can remove metadata and alter frames."
+      ]
+    },
+    {
+      "id": "company",
+      "label": "Company / organization",
+      "normalize": [
+        "legal name",
+        "aliases",
+        "registry identifier"
+      ],
+      "recommended_categories": [
+        "corporate",
+        "brazil",
+        "search"
+      ],
+      "caveats": [
+        "Registered address can be an intermediary or service provider."
+      ]
+    },
+    {
+      "id": "document",
+      "label": "Document",
+      "normalize": [
+        "hash",
+        "metadata",
+        "text",
+        "embedded URLs"
+      ],
+      "recommended_categories": [
+        "documents",
+        "archive",
+        "search"
+      ],
+      "caveats": [
+        "Transformed copies can change metadata."
+      ]
+    },
+    {
+      "id": "location",
+      "label": "Location / coordinates",
+      "normalize": [
+        "decimal coordinates",
+        "place names",
+        "timezone"
+      ],
+      "recommended_categories": [
+        "geo",
+        "satellite"
+      ],
+      "caveats": [
+        "Map labels and imagery dates can differ by provider."
+      ]
+    },
+    {
+      "id": "hash",
+      "label": "File hash",
+      "normalize": [
+        "algorithm",
+        "lowercase hex"
+      ],
+      "recommended_categories": [
+        "cti"
+      ],
+      "caveats": [
+        "A hash identifies a file instance, not intent or attribution."
+      ]
+    },
+    {
+      "id": "ioc",
+      "label": "IOC",
+      "normalize": [
+        "type",
+        "value",
+        "first observed",
+        "last observed",
+        "source"
+      ],
+      "recommended_categories": [
+        "cti",
+        "infrastructure"
+      ],
+      "caveats": [
+        "IOC reputation is time-sensitive and can be context-dependent."
+      ]
+    },
+    {
+      "id": "keyword",
+      "label": "Keyword / phrase",
+      "normalize": [
+        "exact phrase",
+        "language variants",
+        "time window"
+      ],
+      "recommended_categories": [
+        "search",
+        "research",
+        "archive"
+      ],
+      "caveats": [
+        "Search ranking is not evidence quality."
+      ]
+    }
+  ]
+}

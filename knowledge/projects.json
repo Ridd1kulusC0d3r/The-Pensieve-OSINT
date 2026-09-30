@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0.0",
+  "projects": [
+    {
+      "id": "the-pensieve-osint",
+      "name": "The Pensieve OSINT",
+      "url": "https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT",
+      "role": "navigation, knowledge and retrieval layer",
+      "specialization": [
+        "second brain",
+        "OSINT arsenal",
+        "knowledge graph"
+      ]
+    },
+    {
+      "id": "mineiro",
+      "name": "Mineiro Username Intelligence",
+      "url": "https://github.com/Ridd1kulusC0d3r/Mineiro-OSINT-Extractor",
+      "role": "username/public-presence workbench",
+      "specialization": [
+        "username",
+        "evidence",
+        "correlation"
+      ]
+    },
+    {
+      "id": "tocaia",
+      "name": "T.O.C.A.I.A",
+      "url": "https://github.com/Ridd1kulusC0d3r/tocaia-osint",
+      "role": "behavioral OSINT and meaningful-absence methodology",
+      "specialization": [
+        "behavior",
+        "absence",
+        "collection coverage"
+      ]
+    },
+    {
+      "id": "osint-checklist",
+      "name": "OSINT Checklist",
+      "url": "https://github.com/Ridd1kulusC0d3r/osintchecklist",
+      "role": "investigation method and logbook",
+      "specialization": [
+        "workflow",
+        "evidence",
+        "timeline",
+        "findings"
+      ]
+    },
+    {
+      "id": "fio",
+      "name": "F.I.O. Lab",
+      "url": "https://github.com/Ridd1kulusC0d3r/FIO",
+      "role": "Brazilian public-data and identifier laboratory",
+      "specialization": [
+        "Brazil",
+        "public data",
+        "identifiers"
+      ]
+    },
+    {
+      "id": "tropeiro",
+      "name": "Tropeiro Intel",
+      "url": "https://github.com/Ridd1kulusC0d3r/tropeiro-intel",
+      "role": "defensive OSINT and CTI for phishing/fraud campaigns",
+      "specialization": [
+        "CTI",
+        "phishing",
+        "fraud"
+      ]
+    },
+    {
+      "id": "osint-base",
+      "name": "OSINT",
+      "url": "https://github.com/Ridd1kulusC0d3r/OSINT",
+      "role": "fundamentals, labs and templates",
+      "specialization": [
+        "learning",
+        "methodology"
+      ]
+    },
+    {
+      "id": "osint-uai",
+      "name": "OSINT Uai",
+      "url": "https://github.com/Ridd1kulusC0d3r/OsintUAI",
+      "role": "podcast and educational material",
+      "specialization": [
+        "education",
+        "interviews"
+      ]
+    },
+    {
+      "id": "t4lks",
+      "name": "T4lks",
+      "url": "https://github.com/Ridd1kulusC0d3r/T4lks",
+      "role": "talks, workshops and research material",
+      "specialization": [
+        "talks",
+        "workshops",
+        "research"
+      ]
+    }
+  ]
+}

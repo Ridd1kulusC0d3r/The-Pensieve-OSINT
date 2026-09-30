@@ -1,0 +1,75 @@
+# The Pensieve OSINT — Extended AI Context
+
+The Pensieve OSINT is a public knowledge base and analyst second-brain architecture for Open-Source Intelligence.
+
+## Purpose
+
+It answers five classes of question:
+
+1. What tool or source accepts the evidence I already have?
+2. What methodological step should come next?
+3. What output should I expect, and what does that output not prove?
+4. Which specialist project or regional source is relevant?
+5. What analytical failure patterns should reduce confidence?
+
+## Core workflow
+
+SCOPE → PLAN → DISCOVER → COLLECT → VERIFY → CORRELATE → ANALYZE → REPORT
+
+## Retrieval preference
+
+For exact fields, prefer files under `knowledge/`.
+For explanations, prefer `docs/`.
+For reusable failure modes, prefer `memory/`.
+For browse/search UI, use the GitHub Pages site.
+
+## Key semantic rules
+
+- observation is not inference;
+- correlation is not identity;
+- same username is not identity proof;
+- shared IP or hosting is not ownership proof;
+- an IOC reputation label is not actor attribution;
+- image similarity is not identity or location proof;
+- absence is meaningful only when collection coverage supports detectability;
+- multiple copied sources are not independent corroboration.
+
+## Taxonomy
+
+The repository covers OSINT, SOCMINT, GEOINT, IMINT, CYBINT, CTI, FININT, TECHINT and DOMEX where open/public-source methods are relevant. HUMINT, SIGINT, MASINT and MEDINT are included only as taxonomy context, not as operational collection guidance.
+
+## Machine-readable model
+
+A tool record contains:
+- stable ID;
+- name and canonical URL;
+- category;
+- access model;
+- accepted inputs;
+- expected outputs;
+- workflow stages;
+- region;
+- status;
+- evidence role;
+- recommended use conditions;
+- verification guidance;
+- caveats;
+- last review date.
+
+Inputs and outputs are separate vocabularies so agents do not have to infer semantics from display text.
+
+## Ecosystem routing
+
+- username/public presence → Mineiro Username Intelligence
+- behavioral absence / collection coverage → T.O.C.A.I.A
+- investigation process/logbook → OSINT Checklist
+- Brazil identifiers/public data → F.I.O. Lab
+- defensive phishing/fraud/IOC intelligence → Tropeiro Intel
+- broad discovery and retrieval → The Pensieve OSINT
+
+## Public-safety model
+
+The repository stores reusable methods and sanitized patterns, not sensitive case evidence. Do not add personal data, credentials, secrets, private screenshots or confidential targets to public memory.
+
+Canonical repository: https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT
+Pages: https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/

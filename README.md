@@ -1,112 +1,144 @@
 # The Pensieve OSINT
 
-> **An analyst's second brain for Open-Source Intelligence.**  
-> Curated tools, investigation workflows, public-data sources, verification resources, cyber/CTI pivots, Brazil/LATAM references and the Ridd1kulusC0d3r OSINT ecosystem.
+> **An analyst second brain for Open-Source Intelligence.**  
+> Searchable arsenal · evidence-aware playbooks · analyst memory · knowledge graph · Brazil/LATAM sources · machine-readable knowledge for AI agents.
 
-[Português](README.pt-BR.md) · [Arsenal](docs/ARSENAL.md) · [Workflow](docs/WORKFLOW.md) · [Brazil & LATAM](docs/BRAZIL-LATAM.md) · [My OSINT ecosystem](docs/ECOSYSTEM.md) · [OPSEC & Ethics](docs/OPSEC-ETHICS.md)
+[Web Explorer](https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/) · [Português](README.pt-BR.md) · [Arsenal](docs/ARSENAL.md) · [I Have… Router](docs/ROUTER.md) · [Second Brain](docs/SECOND-BRAIN.md) · [AI Discovery](docs/AI-DISCOVERY.md) · [Brazil & LATAM](docs/BRAZIL-LATAM.md)
 
 ---
 
-## Why this repository exists
+## Not another bookmark dump
 
-OSINT directories are easy to build and surprisingly easy to make useless. A thousand links without context is not an investigation system.
+A directory can tell you that a tool exists. An analyst second brain should also remember what input you have, which methodological step comes next, what a tool can produce, what that output does not prove, which sources should corroborate it, which failure patterns should lower confidence, which specialist project handles the job, and what changed since the last review.
 
-**The Pensieve OSINT** is organized around the analyst's actual questions:
-
-```text
-QUESTION
-   ↓
-SCOPE → PLAN → DISCOVER → COLLECT → VERIFY → CORRELATE → ANALYZE → REPORT
-   ↓         ↓          ↓          ↓           ↓
-  law     sources     evidence   confidence   decision
-```
-
-The repository combines:
-
-- **tool discovery** — curated by investigative function;
-- **method** — what to do before and after opening a tool;
-- **input-oriented pivots** — username, e-mail, domain, IP, URL, image, company, document, location, IOC and more;
-- **verification** — provenance, corroboration, source quality and uncertainty;
-- **regional intelligence** — dedicated Brazil/LATAM public-data references;
-- **cyber + CTI** — infrastructure, IOC enrichment and threat-intelligence resources;
-- **automation** — frameworks, graphing and machine-readable catalogs;
-- **responsible use** — privacy, legal boundaries, source preservation and analyst OPSEC.
+~~~text
+WHAT I HAVE
+    ↓
+NORMALIZE → PLAN → DISCOVER → COLLECT → VERIFY → CORRELATE → ANALYZE → REPORT
+    │             │                         │
+    │             └──── tools/sources ──────┤
+    └──── input semantics                   │
+                                            ↓
+                         caveats + analyst memory + confidence
+~~~
 
 ## Start here
 
-| Need | Go to |
+| Need | Entry point |
 |---|---|
-| Find a tool by task | [OSINT Arsenal](docs/ARSENAL.md) |
+| Search/filter the arsenal | [Web Explorer](https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/) |
+| Start from a username/domain/image/etc. | [“I Have…” Router](docs/ROUTER.md) |
+| Browse tools by function | [OSINT Arsenal](docs/ARSENAL.md) |
 | Follow a repeatable investigation process | [Analyst Workflow](docs/WORKFLOW.md) |
-| Investigate Brazil/LATAM public sources | [Brazil & LATAM](docs/BRAZIL-LATAM.md) |
-| Explore my related OSINT projects | [Ridd1kulusC0d3r OSINT Ecosystem](docs/ECOSYSTEM.md) |
-| Use the catalog programmatically | [data/tools.csv](data/tools.csv) |
-| Review legal, ethical and OPSEC boundaries | [OPSEC & Ethics](docs/OPSEC-ETHICS.md) |
-| Contribute a tool or source | [CONTRIBUTING.md](CONTRIBUTING.md) |
-| See what comes next | [ROADMAP.md](ROADMAP.md) |
+| Understand the memory architecture | [Second Brain](docs/SECOND-BRAIN.md) |
+| Explore relationships | [Knowledge Graph](docs/KNOWLEDGE-GRAPH.md) |
+| Reuse analyst lessons | [Analyst Memory](memory/README.md) |
+| Work with Brazil/LATAM public sources | [Brazil & LATAM](docs/BRAZIL-LATAM.md) |
+| Navigate my related OSINT projects | [Ridd1kulusC0d3r OSINT Ecosystem](docs/ECOSYSTEM.md) |
+| Consume structured data | [knowledge/](knowledge/) |
+| Let an AI agent understand the repo | [llms.txt](llms.txt) · [ai-index.json](ai-index.json) · [AGENTS.md](AGENTS.md) |
+| Review legal/ethical boundaries | [OPSEC & Ethics](docs/OPSEC-ETHICS.md) |
 
-## Investigation map
+## “I Have…” routing
 
-| Surface | Examples of pivots |
+The interface starts with the observable, not the analyst's favorite tool.
+
+| You have | Typical route |
 |---|---|
-| Search & discovery | keyword, quote, document, cached page |
-| Identity | name, username, e-mail, phone number |
-| Social platforms | profile, handle, post, channel, media |
-| Web infrastructure | domain, subdomain, DNS, certificate, IP, ASN |
-| Media verification | image, video, metadata, frame, source |
-| Geospatial | coordinates, map, satellite, terrain, shadow |
-| Organizations | company, officer, registry, procurement, sanction |
-| Transport | aircraft, vessel, airport, port |
-| Documents | PDF, metadata, OCR, archives, public records |
-| Cyber / CTI | IOC, malware, passive DNS, reputation, ATT&CK context |
-| Research | academic paper, dataset, citation, historical record |
-| Analysis | graph, timeline, evidence register, hypothesis testing |
+| **username** | discovery → platform-native verification → archive → correlation |
+| **domain** | RDAP → certificates/DNS → indexed services → archive → CTI context |
+| **URL** | passive scan/archive → reputation context → infrastructure pivots |
+| **IP** | registration/ASN → indexed services → defensive CTI context |
+| **image** | preserve/hash → metadata → reverse search → GEOINT validation |
+| **company** | official registry → identifiers → filings/procurement → relationship map |
+| **document** | preserve/hash → metadata/OCR → entities → primary-source verification |
+| **IOC** | multi-source enrichment → infrastructure → behavior context → reporting |
+| **location** | maps → street imagery → satellite/terrain → alternative hypothesis |
 
-## Core external references
+Machine-readable playbooks live in [knowledge/playbooks.json](knowledge/playbooks.json).
 
-These are useful starting points when the local catalog does not cover a niche:
+## Second-brain layers
 
-- [Bellingcat Online Investigation Toolkit](https://bellingcat.gitbook.io/toolkit)
-- [OSINT Framework](https://osintframework.com/)
-- [Awesome OSINT](https://github.com/jivoi/awesome-osint)
-- [Awesome OSINT Repositories](https://github.com/osintshifu/awesome-osint-repos)
-- [OSINT.dev](https://osint.dev/)
-- [IntelTechniques Search Tools](https://inteltechniques.com/tools/)
-- [OSINT Combine](https://www.osintcombine.com/tools)
+| Layer | Stored in | Purpose |
+|---|---|---|
+| **Declarative memory** | knowledge/ | tools, sources, inputs, outputs, taxonomy, projects |
+| **Procedural memory** | knowledge/playbooks.json | repeatable investigation plans |
+| **Analyst memory** | memory/ | false positives, pitfalls, reusable lessons |
+| **Relational memory** | knowledge/relations.json | graph relationships |
+| **Temporal memory** | data/health.json | source/tool reachability changes |
+| **Retrieval layer** | GitHub Pages | search, filters, “I Have…”, graph explorer |
+| **AI discovery layer** | llms.txt, ai-index.json, JSON-LD | explicit machine navigation |
+
+## Machine-readable knowledge
+
+The canonical layer is **JSON**, not the CSV export.
+
+~~~text
+knowledge/
+├── tools.json
+├── inputs.json
+├── outputs.json
+├── sources.json
+├── projects.json
+├── playbooks.json
+├── int-taxonomy.json
+├── relations.json
+└── schema.json
+~~~
+
+data/tools.csv is generated for convenience by scripts/build_catalog.py.
+
+### For AI agents
+
+Read in this order:
+
+1. [llms.txt](llms.txt)
+2. [ai-index.json](ai-index.json)
+3. [knowledge/README.md](knowledge/README.md)
+4. the relevant canonical JSON
+5. explanatory docs and analyst-memory patterns
+
+See [AGENTS.md](AGENTS.md) for constraints. The repository deliberately states non-equivalences such as:
+
+> username match ≠ identity proof  
+> shared infrastructure ≠ ownership  
+> reputation label ≠ attribution  
+> archive capture time ≠ publication time  
+> no result ≠ evidence of absence
+
+## Intelligence taxonomy
+
+Pensieve maps open-source work across **OSINT, SOCMINT, GEOINT, IMINT, CYBINT, CTI, FININT, TECHINT and DOMEX**. HUMINT, SIGINT, MASINT and MEDINT are included only for taxonomy context, not as operational collection guidance.
+
+See [Intelligence Taxonomy](docs/INTELLIGENCE-TAXONOMY.md).
 
 ## Ridd1kulusC0d3r OSINT ecosystem
 
-This repository is the **hub**. The specialized work happens elsewhere:
+Pensieve is the navigation and memory layer. Specialized work remains specialized:
 
-- **[Mineiro Username Intelligence](https://github.com/Ridd1kulusC0d3r/Mineiro-OSINT-Extractor)** — username/public-presence workbench with evidence and correlation.
-- **[T.O.C.A.I.A](https://github.com/Ridd1kulusC0d3r/tocaia-osint)** — behavioral OSINT and analysis of meaningful absence.
-- **[OSINT Checklist](https://github.com/Ridd1kulusC0d3r/osintchecklist)** — method, decision flow, logbook and auditable investigation workflow.
-- **[F.I.O. Lab](https://github.com/Ridd1kulusC0d3r/FIO)** — Brazilian public-data and identifier analysis laboratory.
+- **[Mineiro Username Intelligence](https://github.com/Ridd1kulusC0d3r/Mineiro-OSINT-Extractor)** — username/public-presence evidence and correlation.
+- **[T.O.C.A.I.A](https://github.com/Ridd1kulusC0d3r/tocaia-osint)** — behavioral OSINT, collection coverage and meaningful absence.
+- **[OSINT Checklist](https://github.com/Ridd1kulusC0d3r/osintchecklist)** — method, logbook, evidence, entities, timeline and findings.
+- **[F.I.O. Lab](https://github.com/Ridd1kulusC0d3r/FIO)** — Brazilian public-data and identifier research.
 - **[Tropeiro Intel](https://github.com/Ridd1kulusC0d3r/tropeiro-intel)** — defensive OSINT / CTI for phishing and fraud campaigns.
-- **[OSINT](https://github.com/Ridd1kulusC0d3r/OSINT)** — study base, labs, templates and methodology.
+- **[OSINT](https://github.com/Ridd1kulusC0d3r/OSINT)** — fundamentals, labs and templates.
 - **[OSINT Uai](https://github.com/Ridd1kulusC0d3r/OsintUAI)** — podcast and educational material.
-- **[T4lks](https://github.com/Ridd1kulusC0d3r/T4lks)** — talks, workshops and research material.
+- **[T4lks](https://github.com/Ridd1kulusC0d3r/T4lks)** — talks, workshops and research.
 
-See the full map in [docs/ECOSYSTEM.md](docs/ECOSYSTEM.md).
+Full map: [docs/ECOSYSTEM.md](docs/ECOSYSTEM.md).
 
-## Curation standard
+## Curation and health
 
-A resource should answer at least one of these questions:
+A working URL is not proof of analytical quality, and an automated 403 is not proof that a service is dead. Pensieve therefore separates catalog status, best-effort reachability, analytical caveats and human review date.
 
-1. **What input does it accept?**
-2. **What evidence does it produce?**
-3. **How can another analyst reproduce the result?**
-4. **What are the limitations, cost, account or API requirements?**
-5. **Is it still useful enough to keep?**
-
-Tools can disappear, become paid, break APIs or quietly change behavior. Link validation is automated, but **a working URL is not proof that a tool is analytically reliable**.
+Weekly health snapshots are produced by [scripts/health_check.py](scripts/health_check.py). Link and knowledge validation run in GitHub Actions.
 
 ## Responsible use
 
-Use public, lawful and authorized sources. Minimize unnecessary personal data, preserve provenance, separate observation from inference and document uncertainty. Do not treat a username match, image similarity, shared infrastructure or graph edge as automatic proof of identity or attribution.
+Use public, lawful and authorized sources. Minimize unnecessary personal data, preserve provenance, separate observation from inference and document uncertainty. Public analyst memory must contain **sanitized methods and patterns, not sensitive case data**.
 
 See [OPSEC & Ethics](docs/OPSEC-ETHICS.md).
 
 ---
 
-**Status:** v0.1 foundation — curated arsenal, workflow, regional sources, own-project ecosystem, machine-readable catalog and link checking.
+**Status: v0.3 Second Brain foundation** — structured knowledge, searchable Pages interface, input-first routing, playbooks, analyst memory, knowledge graph, AI-agent manifests, health monitoring and regional intelligence packs.
