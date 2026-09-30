@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "name": "The Pensieve OSINT",
+  "description": "Analyst second brain for Open-Source Intelligence with structured tools, sources, playbooks, memory patterns, knowledge graph and Brazil/LATAM coverage.",
+  "canonical_repository": "https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT",
+  "pages": "https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/",
+  "language": [
+    "en",
+    "pt-BR"
+  ],
+  "topics": [
+    "OSINT",
+    "open-source intelligence",
+    "SOCMINT",
+    "GEOINT",
+    "IMINT",
+    "CTI",
+    "cyber threat intelligence",
+    "digital investigations",
+    "public-source research",
+    "knowledge graph",
+    "second brain",
+    "Brazil OSINT",
+    "LATAM OSINT",
+    "evidence provenance"
+  ],
+  "machine_entrypoints": {
+    "tools": "knowledge/tools.json",
+    "inputs": "knowledge/inputs.json",
+    "outputs": "knowledge/outputs.json",
+    "sources": "knowledge/sources.json",
+    "projects": "knowledge/projects.json",
+    "playbooks": "knowledge/playbooks.json",
+    "taxonomy": "knowledge/int-taxonomy.json",
+    "relations": "knowledge/relations.json",
+    "schema": "knowledge/schema.json"
+  },
+  "human_entrypoints": {
+    "readme": "README.md",
+    "arsenal": "docs/ARSENAL.md",
+    "workflow": "docs/WORKFLOW.md",
+    "router": "docs/ROUTER.md",
+    "second_brain": "docs/SECOND-BRAIN.md",
+    "ai_discovery": "docs/AI-DISCOVERY.md",
+    "regional": "docs/BRAZIL-LATAM.md",
+    "memory": "memory/README.md"
+  },
+  "safety_and_quality": [
+    "Use public, lawful or authorized sources.",
+    "Preserve provenance.",
+    "Separate observation from inference.",
+    "Do not treat correlation as automatic identity or attribution.",
+    "Do not store sensitive case data in the public repository."
+  ],
+  "last_reviewed": "2026-09-30"
+}
