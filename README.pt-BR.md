@@ -3,7 +3,7 @@
 > **O segundo cérebro do analista de Inteligência de Fontes Abertas.**  
 > Arsenal pesquisável · playbooks orientados por evidência · memória analítica · knowledge graph · Brasil/LATAM · conhecimento estruturado para agentes de IA.
 
-[Web Explorer](https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/) · [English](README.md) · [Arsenal](docs/ARSENAL.md) · [Roteador “Eu tenho…”](docs/ROUTER.md) · [Second Brain](docs/SECOND-BRAIN.md) · [Descoberta por IA](docs/AI-DISCOVERY.md)
+[Web Explorer / Pages](docs/PAGES.md) · [English](README.md) · [Arsenal](docs/ARSENAL.md) · [Roteador “Eu tenho…”](docs/ROUTER.md) · [Second Brain](docs/SECOND-BRAIN.md) · [Descoberta por IA](docs/AI-DISCOVERY.md)
 
 ## A proposta
 
@@ -23,7 +23,7 @@ Ele registra ferramentas e fontes, inputs e outputs, playbooks, limitações, ve
 
 | Objetivo | Caminho |
 |---|---|
-| Pesquisar e filtrar o arsenal | [Web Explorer](https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/) |
+| Pesquisar e filtrar o arsenal | [Web Explorer / Pages](docs/PAGES.md) |
 | Começar pelo dado que você já possui | [Roteador “I Have…”](docs/ROUTER.md) |
 | Navegar no arsenal | [Arsenal OSINT](docs/ARSENAL.md) |
 | Seguir método investigativo | [Workflow](docs/WORKFLOW.md) |
