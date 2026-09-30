@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use The Pensieve OSINT in research, training, or documentation, cite the repository and the specific source files used."
+title: "The Pensieve OSINT"
+type: software
+authors:
+  - family-names: "Ridd1kulusC0d3r"
+repository-code: "https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT"
+url: "https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/"
+abstract: "An analyst second brain for Open-Source Intelligence with structured tools, sources, playbooks, analyst-memory patterns, regional public-source packs and a machine-readable knowledge graph."
+keywords:
+  - OSINT
+  - open-source intelligence
+  - SOCMINT
+  - GEOINT
+  - IMINT
+  - cyber threat intelligence
+  - knowledge graph
+  - digital investigation
+  - Brazil OSINT
+  - LATAM OSINT
