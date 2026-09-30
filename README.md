@@ -3,7 +3,7 @@
 > **An analyst second brain for Open-Source Intelligence.**  
 > Searchable arsenal · evidence-aware playbooks · analyst memory · knowledge graph · Brazil/LATAM sources · machine-readable knowledge for AI agents.
 
-[Web Explorer](https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/) · [Português](README.pt-BR.md) · [Arsenal](docs/ARSENAL.md) · [I Have… Router](docs/ROUTER.md) · [Second Brain](docs/SECOND-BRAIN.md) · [AI Discovery](docs/AI-DISCOVERY.md) · [Brazil & LATAM](docs/BRAZIL-LATAM.md)
+[Web Explorer / Pages](docs/PAGES.md) · [Português](README.pt-BR.md) · [Arsenal](docs/ARSENAL.md) · [I Have… Router](docs/ROUTER.md) · [Second Brain](docs/SECOND-BRAIN.md) · [AI Discovery](docs/AI-DISCOVERY.md) · [Brazil & LATAM](docs/BRAZIL-LATAM.md)
 
 ---
 
@@ -26,7 +26,7 @@ NORMALIZE → PLAN → DISCOVER → COLLECT → VERIFY → CORRELATE → ANALYZE
 
 | Need | Entry point |
 |---|---|
-| Search/filter the arsenal | [Web Explorer](https://ridd1kulusc0d3r.github.io/The-Pensieve-OSINT/) |
+| Search/filter the arsenal | [Web Explorer / Pages](docs/PAGES.md) |
 | Start from a username/domain/image/etc. | [“I Have…” Router](docs/ROUTER.md) |
 | Browse tools by function | [OSINT Arsenal](docs/ARSENAL.md) |
 | Follow a repeatable investigation process | [Analyst Workflow](docs/WORKFLOW.md) |
