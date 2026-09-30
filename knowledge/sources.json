@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "id": "receita-cadastros",
+      "name": "Receita Federal — Dados Abertos / Cadastros",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "authority": "Receita Federal do Brasil",
+      "region": "BR",
+      "source_class": "official_primary",
+      "use": "CNPJ and other registry open data",
+      "limitations": [
+        "Schemas and publication paths can change."
+      ]
+    },
+    {
+      "id": "dados-gov-br",
+      "name": "dados.gov.br",
+      "url": "https://dados.gov.br/",
+      "authority": "Governo Federal",
+      "region": "BR",
+      "source_class": "official_catalog",
+      "use": "Federal open-data discovery",
+      "limitations": [
+        "Dataset freshness depends on publishing organization."
+      ]
+    },
+    {
+      "id": "portal-transparencia",
+      "name": "Portal da Transparência",
+      "url": "https://portaldatransparencia.gov.br/",
+      "authority": "Controladoria-Geral da União",
+      "region": "BR",
+      "source_class": "official_primary",
+      "use": "Transparency, spending and sanctions context",
+      "limitations": [
+        "HTTP automation may be restricted; use source-native access."
+      ]
+    },
+    {
+      "id": "ibge",
+      "name": "IBGE",
+      "url": "https://www.ibge.gov.br/",
+      "authority": "IBGE",
+      "region": "BR",
+      "source_class": "official_primary",
+      "use": "Geographic and statistical context",
+      "limitations": [
+        "Different datasets have different reference dates."
+      ]
+    },
+    {
+      "id": "wayback",
+      "name": "Internet Archive Wayback Machine",
+      "url": "https://web.archive.org/",
+      "authority": "Internet Archive",
+      "region": "global",
+      "source_class": "archive",
+      "use": "Historical web captures",
+      "limitations": [
+        "Coverage is incomplete."
+      ]
+    },
+    {
+      "id": "crtsh",
+      "name": "crt.sh",
+      "url": "https://crt.sh/",
+      "authority": "Sectigo-operated CT search service",
+      "region": "global",
+      "source_class": "technical_index",
+      "use": "Certificate transparency search",
+      "limitations": [
+        "Certificate records are historical technical observations, not ownership proof."
+      ]
+    },
+    {
+      "id": "gleif",
+      "name": "GLEIF LEI Search",
+      "url": "https://www.gleif.org/en/lei-data/lei-search/about-lei-search/",
+      "authority": "Global Legal Entity Identifier Foundation",
+      "region": "global",
+      "source_class": "official_registry_index",
+      "use": "Legal Entity Identifier data",
+      "limitations": [
+        "LEI scope does not cover every organization."
+      ]
+    }
+  ]
+}
