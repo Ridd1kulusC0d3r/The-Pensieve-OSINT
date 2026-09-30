@@ -14,7 +14,7 @@ Legend: **OS** open source · **F** free · **FM** freemium · **P** paid/commer
 | [Awesome OSINT Repositories](https://github.com/osintshifu/awesome-osint-repos) | OS | Repository-first catalog, including newer agentic tools |
 | [OSINT.dev](https://osint.dev/) | F | Searchable OSINT source/tool catalog |
 | [IntelTechniques Search Tools](https://inteltechniques.com/tools/) | F | Search forms and pivot helpers |
-| [OSINT Combine](https://www.osintcombine.com/tools) | F/FM | Practical tool directory and training ecosystem |
+| [OSINT Combine](https://www.osintcombine.com/free-osint-tools) | F/FM | Practical tool directory and training ecosystem |
 | [Bellingcat GitHub](https://github.com/bellingcat) | OS | Open-source investigation utilities |
 
 ## 1. Search, discovery and web research
@@ -30,7 +30,7 @@ Legend: **OS** open source · **F** free · **FM** freemium · **P** paid/commer
 | [Google Programmable Search](https://programmablesearchengine.google.com/) | F/FM | targeted source collections |
 | [Google Dataset Search](https://datasetsearch.research.google.com/) | F | datasets |
 | [Google News](https://news.google.com/) | F | news discovery |
-| [GDELT](https://www.gdeltproject.org/) | F | global news/event datasets |
+| [GDELT](https://gdeltproject.org/) | F | global news/event datasets |
 | [Media Cloud](https://www.mediacloud.org/) | F | media-source research |
 
 ## 2. Archives and historical web
@@ -54,7 +54,7 @@ Legend: **OS** open source · **F** free · **FM** freemium · **P** paid/commer
 | [Sherlock](https://github.com/sherlock-project/sherlock) | OS | username |
 | [Maigret](https://github.com/soxoj/maigret) | OS | username |
 | [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) | OS | username |
-| [Blackbird](https://github.com/p1ngul1n0/blackbird) | OS | username/e-mail |
+| [Blackbird](https://github.com/antoniaci/blackbird) | OS | username/e-mail |
 | [GHunt](https://github.com/mxrch/GHunt) | OS | Google-account-related public signals |
 | [Holehe](https://github.com/megadose/holehe) | OS | e-mail registration signals |
 | [Epieos](https://epieos.com/) | FM | e-mail/phone public-source pivots |
@@ -107,7 +107,7 @@ Legend: **OS** open source · **F** free · **FM** freemium · **P** paid/commer
 | [Feodo Tracker](https://feodotracker.abuse.ch/) | F | botnet C2 intelligence |
 | [Pulsedive](https://pulsedive.com/) | FM | IOC enrichment |
 | [MISP](https://www.misp-project.org/) | OS | threat-intelligence sharing |
-| [OpenCTI](https://www.opencti.io/) | OS | CTI knowledge graph/platform |
+| [OpenCTI](https://github.com/OpenCTI-Platform/opencti) | OS | CTI knowledge graph/platform |
 | [IntelOwl](https://github.com/intelowlproject/IntelOwl) | OS | enrichment orchestration |
 | [MITRE ATT&CK](https://attack.mitre.org/) | F | adversary behavior context |
 | [MITRE D3FEND](https://d3fend.mitre.org/) | F | defensive technique context |
@@ -118,12 +118,12 @@ Legend: **OS** open source · **F** free · **FM** freemium · **P** paid/commer
 
 | Resource | Access | Best use |
 |---|---:|---|
-| [Google Lens](https://lens.google/) | F | reverse/visual search |
-| [Bing Visual Search](https://www.bing.com/visualsearch) | F | reverse/visual search |
+| [Google Lens](https://search.google/ways-to-search/lens/) | F | reverse/visual search |
+| [Bing Visual Search](https://www.microsoft.com/bing/visual-search) | F | reverse/visual search |
 | [Yandex Images](https://yandex.com/images/) | F | reverse/visual search |
 | [TinEye](https://tineye.com/) | FM | reverse image search/history |
 | [ExifTool](https://exiftool.org/) | OS/F | metadata extraction |
-| [InVID Verification Plugin](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/) | F | image/video verification |
+| [InVID Verification Plugin](https://weverify.eu/verification-plugin/) | F | image/video verification |
 | [Forensically](https://29a.ch/photo-forensics/) | F | image inspection |
 | [FotoForensics](https://fotoforensics.com/) | F | image artifact inspection |
 | [FFmpeg](https://ffmpeg.org/) | OS | frame/audio/video extraction |
@@ -135,7 +135,7 @@ Legend: **OS** open source · **F** free · **FM** freemium · **P** paid/commer
 | Resource | Access | Best use |
 |---|---:|---|
 | [Google Maps](https://maps.google.com/) | F | places, roads, imagery |
-| [Google Earth](https://earth.google.com/) | F | 3D/historical geospatial research |
+| [Google Earth](https://earth.google.com/web/) | F | 3D/historical geospatial research |
 | [OpenStreetMap](https://www.openstreetmap.org/) | F/OS | open map data |
 | [Overpass Turbo](https://overpass-turbo.eu/) | F/OS | query OpenStreetMap features |
 | [Mapillary](https://www.mapillary.com/) | F | street-level imagery |
@@ -157,7 +157,7 @@ Legend: **OS** open source · **F** free · **FM** freemium · **P** paid/commer
 | [USGS EarthExplorer](https://earthexplorer.usgs.gov/) | F/O | satellite/aerial datasets |
 | [Google Earth Engine](https://earthengine.google.com/) | FM | planetary-scale geospatial analysis |
 | [OpenTopography](https://opentopography.org/) | F | terrain/elevation |
-| [Global Forest Watch](https://www.globalforestwatch.org/) | F | forest/environment monitoring |
+| [Global Forest Watch](https://globalnaturewatch.org/) | F | forest/environment monitoring |
 | [FIRMS](https://firms.modaps.eosdis.nasa.gov/) | F/O | active fire data |
 
 ## 10. Companies, organizations and public records
@@ -165,14 +165,14 @@ Legend: **OS** open source · **F** free · **FM** freemium · **P** paid/commer
 | Resource | Access | Best use |
 |---|---:|---|
 | [OpenCorporates](https://opencorporates.com/) | FM | company records across jurisdictions |
-| [GLEIF LEI Search](https://www.gleif.org/en/lei-search) | F/O | legal entity identifiers |
+| [GLEIF LEI Search](https://www.gleif.org/en/lei-data/lei-search/about-lei-search/) | F/O | legal entity identifiers |
 | [SEC EDGAR](https://www.sec.gov/edgar/search/) | F/O | US filings |
 | [Companies House](https://find-and-update.company-information.service.gov.uk/) | F/O | UK companies |
 | [OCCRP Aleph](https://aleph.occrp.org/) | F/FM | investigative records/entities |
 | [ICIJ Offshore Leaks](https://offshoreleaks.icij.org/) | F | offshore entity records |
 | [OpenSanctions](https://www.opensanctions.org/) | OS/FM | sanctions/PEP/entity datasets |
 | [OpenOwnership](https://www.openownership.org/) | F/OS | beneficial ownership data |
-| [World Bank Projects](https://projects.worldbank.org/) | F/O | project/procurement context |
+| [World Bank Projects](https://projects.worldbank.org/en/projects-operations/projects-home) | F/O | project/procurement context |
 | [EU TED](https://ted.europa.eu/) | F/O | European public procurement |
 
 ## 11. Aviation and maritime
@@ -275,7 +275,7 @@ This category changes quickly. Treat model output as **analysis assistance**, no
 | [Bellingcat OSINT tools](https://github.com/bellingcat) | OS | source-grounded utilities that can be composed into assisted workflows |
 | [Awesome OSINT Repositories – Agentic AI](https://github.com/osintshifu/awesome-osint-repos) | OS | tracking newer agentic/MCP OSINT projects |
 | [Data Commons](https://datacommons.org/) | F/O | structured public knowledge graph |
-| [OpenAlex API](https://docs.openalex.org/) | F | research graph for assisted literature/entity work |
+| [OpenAlex API](https://help.openalex.org/) | F | research graph for assisted literature/entity work |
 | [Wikidata](https://www.wikidata.org/) | F/OS | structured entity graph |
 | [OpenAI-independent MCP specification](https://modelcontextprotocol.io/) | F/OS | integration pattern for tool-aware research agents |
 
