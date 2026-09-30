@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0.0",
+  "groups": [
+    {
+      "canonical": "username",
+      "terms": [
+        "handle",
+        "user name",
+        "screen name",
+        "nickname",
+        "alias",
+        "perfil",
+        "usuário",
+        "usuario"
+      ]
+    },
+    {
+      "canonical": "domain",
+      "terms": [
+        "hostname",
+        "site",
+        "website",
+        "domínio",
+        "dominio",
+        "fqdn"
+      ]
+    },
+    {
+      "canonical": "ip",
+      "terms": [
+        "ip address",
+        "ipv4",
+        "ipv6",
+        "host address",
+        "endereço ip",
+        "endereco ip"
+      ]
+    },
+    {
+      "canonical": "image",
+      "terms": [
+        "photo",
+        "picture",
+        "avatar",
+        "fotografia",
+        "foto",
+        "imagem"
+      ]
+    },
+    {
+      "canonical": "company",
+      "terms": [
+        "organization",
+        "organisation",
+        "business",
+        "legal entity",
+        "empresa",
+        "organização",
+        "organizacao",
+        "cnpj"
+      ]
+    },
+    {
+      "canonical": "document",
+      "terms": [
+        "pdf",
+        "file",
+        "report",
+        "arquivo",
+        "documento"
+      ]
+    },
+    {
+      "canonical": "location",
+      "terms": [
+        "place",
+        "coordinates",
+        "geolocation",
+        "geolocate",
+        "localização",
+        "localizacao",
+        "coordenadas"
+      ]
+    },
+    {
+      "canonical": "ioc",
+      "terms": [
+        "indicator",
+        "indicator of compromise",
+        "observable",
+        "threat indicator",
+        "indicador"
+      ]
+    },
+    {
+      "canonical": "archive",
+      "terms": [
+        "historical",
+        "history",
+        "snapshot",
+        "wayback",
+        "arquivo web",
+        "histórico",
+        "historico"
+      ]
+    },
+    {
+      "canonical": "cti",
+      "terms": [
+        "cyber threat intelligence",
+        "threat intel",
+        "threat intelligence",
+        "inteligência de ameaças",
+        "inteligencia de ameacas"
+      ]
+    },
+    {
+      "canonical": "osint",
+      "terms": [
+        "open source intelligence",
+        "open-source intelligence",
+        "inteligência de fontes abertas",
+        "inteligencia de fontes abertas"
+      ]
+    },
+    {
+      "canonical": "brazil",
+      "terms": [
+        "brasil",
+        "br",
+        "brasileiro",
+        "brazilian"
+      ]
+    },
+    {
+      "canonical": "latam",
+      "terms": [
+        "latin america",
+        "latin-america",
+        "américa latina",
+        "america latina"
+      ]
+    }
+  ]
+}
