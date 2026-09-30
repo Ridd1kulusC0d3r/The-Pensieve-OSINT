@@ -1,6 +1,5 @@
 {
   "schema_version": "1.0.0",
-  "generated_from": "data/tools.csv",
   "description": "Canonical machine-readable OSINT knowledge catalog for The Pensieve OSINT.",
   "records": [
     {
@@ -3825,5 +3824,7 @@
       "owner_ecosystem": false,
       "last_reviewed": "2026-09-30"
     }
-  ]
+  ],
+  "migrated_from": "data/tools.csv",
+  "canonical": true
 }
