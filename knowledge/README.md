@@ -14,6 +14,10 @@ Humans can browse the Markdown documentation. Search engines and agents should p
 - `int-taxonomy.json` — intelligence-discipline taxonomy and open-source applicability.
 - `playbooks.json` — safe, reproducible investigation plans.
 - `relations.json` — curated semantic edges.
+- `source-quality.json` — source/evidence quality dimensions separate from reachability.
+- `inference-rules.json` — explicit observation → do-not-infer → corroborate rules.
+- `synonyms.json` — retrieval aliases in English and Portuguese.
+- `questions.json` — common analyst/agent questions and authoritative files.
 - `schema.json` — JSON Schema for tool records.
 
 ## Design rules
