@@ -72,7 +72,7 @@ These are useful starting points when the local catalog does not cover a niche:
 - [Awesome OSINT Repositories](https://github.com/osintshifu/awesome-osint-repos)
 - [OSINT.dev](https://osint.dev/)
 - [IntelTechniques Search Tools](https://inteltechniques.com/tools/)
-- [OSINT Combine](https://www.osintcombine.com/tools)
+- [OSINT Combine](https://www.osintcombine.com/free-osint-tools)
 
 ## Ridd1kulusC0d3r OSINT ecosystem
 
