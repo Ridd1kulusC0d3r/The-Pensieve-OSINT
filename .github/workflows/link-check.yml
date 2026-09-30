@@ -27,6 +27,7 @@ jobs:
             --accept 200,202,206,401,403,405,429,522
             --exclude 'https://timetravel.mementoweb.org/'
             --exclude 'https://www.webarchive.org.uk/'
+            --exclude 'https://bgpview.io/'
             './**/*.md'
           fail: true
 
