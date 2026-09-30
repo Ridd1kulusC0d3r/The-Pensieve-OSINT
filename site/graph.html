@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pensieve Knowledge Graph</title>
+  <meta name="description" content="Interactive OSINT knowledge graph showing tool-to-input relationships in The Pensieve OSINT.">
+  <link rel="describedby" href="llms.txt"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero"><nav><a class="brand" href="./">PENSIEVE//OSINT</a><div class="navlinks"><a href="./">Explorer</a><a href="ai-index.json">AI index</a><a href="https://github.com/Ridd1kulusC0d3r/The-Pensieve-OSINT">GitHub</a></div></nav>
+<div class="hero-copy"><p class="eyebrow">RELATIONAL MEMORY</p><h1>Knowledge Graph</h1><p class="lead">Select an input to see the resources that accept it. These edges describe navigation knowledge, not investigative evidence.</p></div></header>
+<main class="graph-shell">
+ <div class="graph-controls"><label for="graphInput">I have:</label><select id="graphInput"></select></div>
+ <div id="graph"></div>
+ <p id="graphNote" class="graph-note"></p>
+</main>
+<script src="graph.js" defer></script>
+</body></html>
