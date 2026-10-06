@@ -1,5 +1,1070 @@
 {
-  "generated_at": null,
-  "meaning": "Run scripts/health_check.py or the scheduled Health workflow to populate. Automated reachability is not analytical reliability.",
-  "records": []
+  "generated_at": "2026-10-06T14:27:48.459819+00:00",
+  "meaning": "Best-effort automated reachability; not an analytical reliability score.",
+  "records": [
+    {
+      "id": "bellingcat-online-investigation-toolkit",
+      "url": "https://bellingcat.gitbook.io/toolkit",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://bellingcat.gitbook.io/toolkit",
+      "note": ""
+    },
+    {
+      "id": "osint-framework",
+      "url": "https://osintframework.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://osintframework.com/",
+      "note": ""
+    },
+    {
+      "id": "awesome-osint",
+      "url": "https://github.com/jivoi/awesome-osint",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/jivoi/awesome-osint",
+      "note": ""
+    },
+    {
+      "id": "awesome-osint-repositories",
+      "url": "https://github.com/osintshifu/awesome-osint-repos",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/osintshifu/awesome-osint-repos",
+      "note": ""
+    },
+    {
+      "id": "osintdev",
+      "url": "https://osint.dev/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://osint.dev/",
+      "note": ""
+    },
+    {
+      "id": "inteltechniques-search-tools",
+      "url": "https://inteltechniques.com/tools/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://inteltechniques.com/tools/",
+      "note": ""
+    },
+    {
+      "id": "osint-combine",
+      "url": "https://www.osintcombine.com/free-osint-tools",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://www.osintcombine.com/free-osint-tools",
+      "note": "Forbidden"
+    },
+    {
+      "id": "google",
+      "url": "https://www.google.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.google.com/",
+      "note": ""
+    },
+    {
+      "id": "bing",
+      "url": "https://www.bing.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.bing.com/",
+      "note": ""
+    },
+    {
+      "id": "brave-search",
+      "url": "https://search.brave.com/",
+      "status": "automation-blocked",
+      "http_code": 429,
+      "final_url": "https://search.brave.com/",
+      "note": "Too Many Requests"
+    },
+    {
+      "id": "duckduckgo",
+      "url": "https://duckduckgo.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://duckduckgo.com/",
+      "note": ""
+    },
+    {
+      "id": "mojeek",
+      "url": "https://www.mojeek.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.mojeek.com/",
+      "note": ""
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://yandex.com/",
+      "note": ""
+    },
+    {
+      "id": "google-dataset-search",
+      "url": "https://datasetsearch.research.google.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://datasetsearch.research.google.com/",
+      "note": ""
+    },
+    {
+      "id": "gdelt",
+      "url": "https://gdeltproject.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://gdeltproject.org/",
+      "note": ""
+    },
+    {
+      "id": "wayback-machine",
+      "url": "https://web.archive.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://web.archive.org/",
+      "note": ""
+    },
+    {
+      "id": "common-crawl",
+      "url": "https://commoncrawl.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://commoncrawl.org/",
+      "note": ""
+    },
+    {
+      "id": "arquivopt",
+      "url": "https://arquivo.pt/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://arquivo.pt/",
+      "note": ""
+    },
+    {
+      "id": "memento-time-travel",
+      "url": "https://timetravel.mementoweb.org/",
+      "status": "network-error",
+      "http_code": null,
+      "final_url": "https://timetravel.mementoweb.org/",
+      "note": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "mineiro-username-intelligence",
+      "url": "https://github.com/Ridd1kulusC0d3r/Mineiro-OSINT-Extractor",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/Ridd1kulusC0d3r/Mineiro-OSINT-Extractor",
+      "note": ""
+    },
+    {
+      "id": "sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/sherlock-project/sherlock",
+      "note": ""
+    },
+    {
+      "id": "maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/soxoj/maigret",
+      "note": ""
+    },
+    {
+      "id": "whatsmyname",
+      "url": "https://github.com/WebBreacher/WhatsMyName",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/WebBreacher/WhatsMyName",
+      "note": ""
+    },
+    {
+      "id": "blackbird",
+      "url": "https://github.com/antoniaci/blackbird",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/antoniaci/blackbird",
+      "note": ""
+    },
+    {
+      "id": "ghunt",
+      "url": "https://github.com/mxrch/GHunt",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/mxrch/GHunt",
+      "note": ""
+    },
+    {
+      "id": "holehe",
+      "url": "https://github.com/megadose/holehe",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/megadose/holehe",
+      "note": ""
+    },
+    {
+      "id": "epieos",
+      "url": "https://epieos.com/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://epieos.com/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "instaloader",
+      "url": "https://github.com/instaloader/instaloader",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/instaloader/instaloader",
+      "note": ""
+    },
+    {
+      "id": "youtube-data-api",
+      "url": "https://developers.google.com/youtube/v3",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://developers.google.com/youtube/v3",
+      "note": ""
+    },
+    {
+      "id": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/yt-dlp/yt-dlp",
+      "note": ""
+    },
+    {
+      "id": "social-searcher",
+      "url": "https://www.social-searcher.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.social-searcher.com/",
+      "note": ""
+    },
+    {
+      "id": "icann-lookup",
+      "url": "https://lookup.icann.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://lookup.icann.org/",
+      "note": ""
+    },
+    {
+      "id": "rdaporg",
+      "url": "https://rdap.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://about.rdap.org/",
+      "note": ""
+    },
+    {
+      "id": "crtsh",
+      "url": "https://crt.sh/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://crt.sh/",
+      "note": ""
+    },
+    {
+      "id": "censys",
+      "url": "https://search.censys.io/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://search.censys.io/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "shodan",
+      "url": "https://www.shodan.io/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://www.shodan.io/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "netlas",
+      "url": "https://netlas.io/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://netlas.io/",
+      "note": ""
+    },
+    {
+      "id": "securitytrails",
+      "url": "https://securitytrails.com/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://securitytrails.com/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "dnsdumpster",
+      "url": "https://dnsdumpster.com/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://dnsdumpster.com/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "viewdnsinfo",
+      "url": "https://viewdns.info/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://viewdns.info/",
+      "note": ""
+    },
+    {
+      "id": "urlscanio",
+      "url": "https://urlscan.io/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://urlscan.io/",
+      "note": ""
+    },
+    {
+      "id": "builtwith",
+      "url": "https://builtwith.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://builtwith.com/",
+      "note": ""
+    },
+    {
+      "id": "wappalyzer",
+      "url": "https://www.wappalyzer.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.wappalyzer.com/",
+      "note": ""
+    },
+    {
+      "id": "ripestat",
+      "url": "https://stat.ripe.net/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://stat.ripe.net/",
+      "note": ""
+    },
+    {
+      "id": "bgpview",
+      "url": "https://bgpview.io/",
+      "status": "network-error",
+      "http_code": null,
+      "final_url": "https://bgpview.io/",
+      "note": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "id": "virustotal",
+      "url": "https://www.virustotal.com/",
+      "status": "automation-blocked",
+      "http_code": 405,
+      "final_url": "https://www.virustotal.com/",
+      "note": "Method Not Allowed"
+    },
+    {
+      "id": "alienvault-otx",
+      "url": "https://otx.alienvault.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://otx.alienvault.com/",
+      "note": ""
+    },
+    {
+      "id": "greynoise",
+      "url": "https://www.greynoise.io/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.greynoise.io/",
+      "note": ""
+    },
+    {
+      "id": "abuseipdb",
+      "url": "https://www.abuseipdb.com/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://www.abuseipdb.com/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "threatfox",
+      "url": "https://threatfox.abuse.ch/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://threatfox.abuse.ch/",
+      "note": ""
+    },
+    {
+      "id": "urlhaus",
+      "url": "https://urlhaus.abuse.ch/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://urlhaus.abuse.ch/",
+      "note": ""
+    },
+    {
+      "id": "malwarebazaar",
+      "url": "https://bazaar.abuse.ch/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://bazaar.abuse.ch/",
+      "note": ""
+    },
+    {
+      "id": "pulsedive",
+      "url": "https://pulsedive.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://pulsedive.com/",
+      "note": ""
+    },
+    {
+      "id": "misp",
+      "url": "https://www.misp-project.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.misp-project.org/",
+      "note": ""
+    },
+    {
+      "id": "opencti",
+      "url": "https://github.com/OpenCTI-Platform/opencti",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/OpenCTI-Platform/opencti",
+      "note": ""
+    },
+    {
+      "id": "intelowl",
+      "url": "https://github.com/intelowlproject/IntelOwl",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/intelowlproject/IntelOwl",
+      "note": ""
+    },
+    {
+      "id": "mitre-attck",
+      "url": "https://attack.mitre.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://attack.mitre.org/",
+      "note": ""
+    },
+    {
+      "id": "mitre-d3fend",
+      "url": "https://d3fend.mitre.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://d3fend.mitre.org/",
+      "note": ""
+    },
+    {
+      "id": "google-lens",
+      "url": "https://search.google/ways-to-search/lens/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://search.google/ways-to-search/lens/",
+      "note": ""
+    },
+    {
+      "id": "bing-visual-search",
+      "url": "https://www.microsoft.com/bing/visual-search",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://explore.microsoft.com/en-us/bing/visual-search/?cs=909571841&form=MT016O",
+      "note": ""
+    },
+    {
+      "id": "yandex-images",
+      "url": "https://yandex.com/images/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://yandex.com/images/",
+      "note": ""
+    },
+    {
+      "id": "tineye",
+      "url": "https://tineye.com/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://tineye.com/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "exiftool",
+      "url": "https://exiftool.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://exiftool.org/",
+      "note": ""
+    },
+    {
+      "id": "invid-verification-plugin",
+      "url": "https://weverify.eu/verification-plugin/",
+      "status": "reachable",
+      "http_code": 202,
+      "final_url": "https://weverify.eu/verification-plugin/",
+      "note": ""
+    },
+    {
+      "id": "forensically",
+      "url": "https://29a.ch/photo-forensics/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://29a.ch/photo-forensics/",
+      "note": ""
+    },
+    {
+      "id": "ffmpeg",
+      "url": "https://ffmpeg.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://ffmpeg.org/",
+      "note": ""
+    },
+    {
+      "id": "google-maps",
+      "url": "https://maps.google.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.google.com/maps",
+      "note": ""
+    },
+    {
+      "id": "google-earth",
+      "url": "https://earth.google.com/web/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://earth.google.com/web/",
+      "note": ""
+    },
+    {
+      "id": "openstreetmap",
+      "url": "https://www.openstreetmap.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.openstreetmap.org/",
+      "note": ""
+    },
+    {
+      "id": "overpass-turbo",
+      "url": "https://overpass-turbo.eu/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://overpass-turbo.eu/",
+      "note": ""
+    },
+    {
+      "id": "mapillary",
+      "url": "https://www.mapillary.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.mapillary.com/",
+      "note": ""
+    },
+    {
+      "id": "kartaview",
+      "url": "https://kartaview.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://kartaview.org/",
+      "note": ""
+    },
+    {
+      "id": "geonames",
+      "url": "https://www.geonames.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.geonames.org/",
+      "note": ""
+    },
+    {
+      "id": "suncalc",
+      "url": "https://www.suncalc.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.suncalc.org/",
+      "note": ""
+    },
+    {
+      "id": "copernicus-data-space",
+      "url": "https://dataspace.copernicus.eu/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://dataspace.copernicus.eu/",
+      "note": ""
+    },
+    {
+      "id": "sentinel-hub-eo-browser",
+      "url": "https://apps.sentinel-hub.com/eo-browser/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://apps.sentinel-hub.com/eo-browser/",
+      "note": ""
+    },
+    {
+      "id": "nasa-worldview",
+      "url": "https://worldview.earthdata.nasa.gov/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://worldview.earthdata.nasa.gov/",
+      "note": ""
+    },
+    {
+      "id": "usgs-earthexplorer",
+      "url": "https://earthexplorer.usgs.gov/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://earthexplorer.usgs.gov/",
+      "note": ""
+    },
+    {
+      "id": "opentopography",
+      "url": "https://opentopography.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://opentopography.org/",
+      "note": ""
+    },
+    {
+      "id": "opencorporates",
+      "url": "https://opencorporates.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://opencorporates.com/",
+      "note": ""
+    },
+    {
+      "id": "gleif-lei-search",
+      "url": "https://www.gleif.org/en/lei-data/lei-search/about-lei-search/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.gleif.org/en/lei-data/lei-search/about-lei-search/",
+      "note": ""
+    },
+    {
+      "id": "sec-edgar",
+      "url": "https://www.sec.gov/edgar/search/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://www.sec.gov/edgar/search/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "companies-house",
+      "url": "https://find-and-update.company-information.service.gov.uk/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://find-and-update.company-information.service.gov.uk/",
+      "note": ""
+    },
+    {
+      "id": "occrp-aleph",
+      "url": "https://aleph.occrp.org/",
+      "status": "automation-blocked",
+      "http_code": 405,
+      "final_url": "https://aleph.occrp.org/",
+      "note": "Method Not Allowed"
+    },
+    {
+      "id": "icij-offshore-leaks",
+      "url": "https://offshoreleaks.icij.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://offshoreleaks.icij.org/",
+      "note": ""
+    },
+    {
+      "id": "opensanctions",
+      "url": "https://www.opensanctions.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.opensanctions.org/",
+      "note": ""
+    },
+    {
+      "id": "ads-b-exchange",
+      "url": "https://www.adsbexchange.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.adsbexchange.com/",
+      "note": ""
+    },
+    {
+      "id": "opensky-network",
+      "url": "https://opensky-network.org/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://opensky-network.org/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "flightradar24",
+      "url": "https://www.flightradar24.com/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://www.flightradar24.com/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "marinetraffic",
+      "url": "https://www.marinetraffic.com/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://www.marinetraffic.com/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "vesselfinder",
+      "url": "https://www.vesselfinder.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.vesselfinder.com/",
+      "note": ""
+    },
+    {
+      "id": "global-fishing-watch",
+      "url": "https://globalfishingwatch.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://globalfishingwatch.org/",
+      "note": ""
+    },
+    {
+      "id": "apache-tika",
+      "url": "https://tika.apache.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://tika.apache.org/",
+      "note": ""
+    },
+    {
+      "id": "ocrmypdf",
+      "url": "https://github.com/ocrmypdf/OCRmyPDF",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/ocrmypdf/OCRmyPDF",
+      "note": ""
+    },
+    {
+      "id": "tesseract-ocr",
+      "url": "https://github.com/tesseract-ocr/tesseract",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/tesseract-ocr/tesseract",
+      "note": ""
+    },
+    {
+      "id": "documentcloud",
+      "url": "https://www.documentcloud.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.documentcloud.org/home/",
+      "note": ""
+    },
+    {
+      "id": "tabula",
+      "url": "https://tabula.technology/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://tabula.technology/",
+      "note": ""
+    },
+    {
+      "id": "cyberchef",
+      "url": "https://gchq.github.io/CyberChef/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://gchq.github.io/CyberChef/",
+      "note": ""
+    },
+    {
+      "id": "google-scholar",
+      "url": "https://scholar.google.com/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://scholar.google.com/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "openalex",
+      "url": "https://openalex.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://openalex.org/",
+      "note": ""
+    },
+    {
+      "id": "semantic-scholar",
+      "url": "https://www.semanticscholar.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.semanticscholar.org/",
+      "note": ""
+    },
+    {
+      "id": "crossref",
+      "url": "https://search.crossref.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://search.crossref.org/",
+      "note": ""
+    },
+    {
+      "id": "orcid",
+      "url": "https://orcid.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://orcid.org/",
+      "note": ""
+    },
+    {
+      "id": "etherscan",
+      "url": "https://etherscan.io/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://etherscan.io/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "blockchair",
+      "url": "https://blockchair.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://blockchair.com/",
+      "note": ""
+    },
+    {
+      "id": "mempoolspace",
+      "url": "https://mempool.space/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://mempool.space/",
+      "note": ""
+    },
+    {
+      "id": "spiderfoot",
+      "url": "https://github.com/smicallef/spiderfoot",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/smicallef/spiderfoot",
+      "note": ""
+    },
+    {
+      "id": "recon-ng",
+      "url": "https://github.com/lanmaster53/recon-ng",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/lanmaster53/recon-ng",
+      "note": ""
+    },
+    {
+      "id": "sn0int",
+      "url": "https://github.com/kpcyrd/sn0int",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/kpcyrd/sn0int",
+      "note": ""
+    },
+    {
+      "id": "maltego",
+      "url": "https://www.maltego.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.maltego.com/",
+      "note": ""
+    },
+    {
+      "id": "amass",
+      "url": "https://github.com/owasp-amass/amass",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/owasp-amass/amass",
+      "note": ""
+    },
+    {
+      "id": "theharvester",
+      "url": "https://github.com/laramies/theHarvester",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/laramies/theHarvester",
+      "note": ""
+    },
+    {
+      "id": "gephi",
+      "url": "https://gephi.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://gephi.org/",
+      "note": ""
+    },
+    {
+      "id": "cytoscape",
+      "url": "https://cytoscape.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://cytoscape.org/",
+      "note": ""
+    },
+    {
+      "id": "neo4j",
+      "url": "https://neo4j.com/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://neo4j.com/",
+      "note": ""
+    },
+    {
+      "id": "openrefine",
+      "url": "https://openrefine.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://openrefine.org/",
+      "note": ""
+    },
+    {
+      "id": "jupyter",
+      "url": "https://jupyter.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://jupyter.org/",
+      "note": ""
+    },
+    {
+      "id": "rsshub",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/DIYgod/RSSHub",
+      "note": ""
+    },
+    {
+      "id": "huginn",
+      "url": "https://github.com/huginn/huginn",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/huginn/huginn",
+      "note": ""
+    },
+    {
+      "id": "changedetectionio",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/dgtlmoon/changedetection.io",
+      "note": ""
+    },
+    {
+      "id": "google-alerts",
+      "url": "https://www.google.com/alerts",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://www.google.com/alerts",
+      "note": ""
+    },
+    {
+      "id": "fio-lab",
+      "url": "https://github.com/Ridd1kulusC0d3r/FIO",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://github.com/Ridd1kulusC0d3r/FIO",
+      "note": ""
+    },
+    {
+      "id": "dadosgovbr",
+      "url": "https://dados.gov.br/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://dados.gov.br/",
+      "note": ""
+    },
+    {
+      "id": "portal-da-transparencia",
+      "url": "https://portaldatransparencia.gov.br/",
+      "status": "automation-blocked",
+      "http_code": 405,
+      "final_url": "https://portaldatransparencia.gov.br/",
+      "note": "Not Allowed"
+    },
+    {
+      "id": "receita-federal-cnpj-open-data",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "note": "Forbidden"
+    },
+    {
+      "id": "ibge",
+      "url": "https://www.ibge.gov.br/",
+      "status": "automation-blocked",
+      "http_code": 403,
+      "final_url": "https://www.ibge.gov.br/",
+      "note": "Forbidden"
+    },
+    {
+      "id": "tse-dados-abertos",
+      "url": "https://dadosabertos.tse.jus.br/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://dadosabertos.tse.jus.br/",
+      "note": ""
+    },
+    {
+      "id": "cvm-dados-abertos",
+      "url": "https://dados.cvm.gov.br/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://dados.cvm.gov.br/",
+      "note": ""
+    },
+    {
+      "id": "querido-diario",
+      "url": "https://queridodiario.org.br/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://queridodiario.org.br/",
+      "note": ""
+    },
+    {
+      "id": "brasilio",
+      "url": "https://brasil.io/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://brasil.io/home/",
+      "note": ""
+    },
+    {
+      "id": "base-dos-dados",
+      "url": "https://basedosdados.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://basedosdados.org/",
+      "note": ""
+    },
+    {
+      "id": "cepalstat",
+      "url": "https://statistics.cepal.org/portal/cepalstat/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://statistics.cepal.org/portal/cepalstat/",
+      "note": ""
+    },
+    {
+      "id": "idb-data",
+      "url": "https://data.iadb.org/",
+      "status": "reachable",
+      "http_code": 200,
+      "final_url": "https://data.iadb.org/",
+      "note": ""
+    }
+  ]
 }
