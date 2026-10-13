@@ -54,6 +54,7 @@ jobs:
             --exclude 'https://bgpview.io/'
             --exclude '^https://ridd1kulusc0d3r\.github\.io/The-Pensieve-OSINT/'
             --exclude '^https://github\.com/Ridd1kulusC0d3r/The-Pensieve-OSINT/tree/main/memory'
+            --exclude '^https://github\.com/Ridd1kulusC0d3r/(FIO|tropeiro-intel)$'
             './**/*.md'
             './site/**/*.html'
           fail: true
