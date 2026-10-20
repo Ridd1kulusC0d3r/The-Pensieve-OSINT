@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T15:15:53.088681+00:00",
+  "generated_at": "2026-10-20T12:57:50.348411+00:00",
   "meaning": "Best-effort automated reachability; not an analytical reliability score.",
   "records": [
     {
@@ -45,10 +45,10 @@
     {
       "id": "inteltechniques-search-tools",
       "url": "https://inteltechniques.com/tools/",
-      "status": "reachable",
-      "http_code": 200,
+      "status": "network-error",
+      "http_code": null,
       "final_url": "https://inteltechniques.com/tools/",
-      "note": ""
+      "note": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     {
       "id": "osint-combine",
@@ -231,7 +231,7 @@
       "url": "https://developers.google.com/youtube/v3",
       "status": "reachable",
       "http_code": 200,
-      "final_url": "https://developers.google.com/youtube/v3",
+      "final_url": "https://developers.google.com/youtube/data",
       "note": ""
     },
     {
@@ -269,10 +269,10 @@
     {
       "id": "crtsh",
       "url": "https://crt.sh/",
-      "status": "not-found",
-      "http_code": 404,
+      "status": "http-error",
+      "http_code": 502,
       "final_url": "https://crt.sh/",
-      "note": "Not Found"
+      "note": "Bad Gateway"
     },
     {
       "id": "censys",
