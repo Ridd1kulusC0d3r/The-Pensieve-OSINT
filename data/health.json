@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T15:29:04.195793+00:00",
+  "generated_at": "2026-11-10T15:46:33.137380+00:00",
   "meaning": "Best-effort automated reachability; not an analytical reliability score.",
   "records": [
     {
@@ -269,10 +269,10 @@
     {
       "id": "crtsh",
       "url": "https://crt.sh/",
-      "status": "network-error",
-      "http_code": null,
+      "status": "reachable",
+      "http_code": 200,
       "final_url": "https://crt.sh/",
-      "note": "The read operation timed out"
+      "note": ""
     },
     {
       "id": "censys",
@@ -789,10 +789,10 @@
     {
       "id": "google-scholar",
       "url": "https://scholar.google.com/",
-      "status": "reachable",
-      "http_code": 200,
+      "status": "automation-blocked",
+      "http_code": 403,
       "final_url": "https://scholar.google.com/",
-      "note": ""
+      "note": "Forbidden"
     },
     {
       "id": "openalex",
