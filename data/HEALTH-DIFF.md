@@ -1,6 +1,6 @@
 # Tool/source health diff
 
-Generated: 2026-11-10T15:46:33.137380+00:00
+Generated: 2026-11-17T17:04:06.627031+00:00
 
 > Automated reachability is not analytical reliability. Anti-bot blocking and network errors require human interpretation.
 
@@ -13,5 +13,4 @@ Generated: 2026-11-10T15:46:33.137380+00:00
 
 ## Changes since previous snapshot
 
-- CHANGED crtsh: network-error → reachable
-- CHANGED google-scholar: reachable → automation-blocked
+- No status/redirect changes detected.
