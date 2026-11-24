@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T17:04:06.627031+00:00",
+  "generated_at": "2026-11-24T19:05:37.639486+00:00",
   "meaning": "Best-effort automated reachability; not an analytical reliability score.",
   "records": [
     {
@@ -13,10 +13,10 @@
     {
       "id": "osint-framework",
       "url": "https://osintframework.com/",
-      "status": "reachable",
-      "http_code": 200,
+      "status": "network-error",
+      "http_code": null,
       "final_url": "https://osintframework.com/",
-      "note": ""
+      "note": "The read operation timed out"
     },
     {
       "id": "awesome-osint",
@@ -45,10 +45,10 @@
     {
       "id": "inteltechniques-search-tools",
       "url": "https://inteltechniques.com/tools/",
-      "status": "reachable",
-      "http_code": 200,
+      "status": "network-error",
+      "http_code": null,
       "final_url": "https://inteltechniques.com/tools/",
-      "note": ""
+      "note": "The read operation timed out"
     },
     {
       "id": "osint-combine",
@@ -293,10 +293,10 @@
     {
       "id": "netlas",
       "url": "https://netlas.io/",
-      "status": "reachable",
-      "http_code": 200,
+      "status": "network-error",
+      "http_code": null,
       "final_url": "https://netlas.io/",
-      "note": ""
+      "note": "The read operation timed out"
     },
     {
       "id": "securitytrails",
@@ -997,10 +997,10 @@
     {
       "id": "receita-federal-cnpj-open-data",
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
-      "status": "automation-blocked",
-      "http_code": 403,
+      "status": "network-error",
+      "http_code": null,
       "final_url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
-      "note": "Forbidden"
+      "note": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     {
       "id": "ibge",

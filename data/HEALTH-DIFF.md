@@ -1,16 +1,19 @@
 # Tool/source health diff
 
-Generated: 2026-11-17T17:04:06.627031+00:00
+Generated: 2026-11-24T19:05:37.639486+00:00
 
 > Automated reachability is not analytical reliability. Anti-bot blocking and network errors require human interpretation.
 
 ## Current summary
 
-- **automation-blocked**: 14
-- **network-error**: 2
+- **automation-blocked**: 13
+- **network-error**: 6
 - **not-found**: 1
-- **reachable**: 116
+- **reachable**: 113
 
 ## Changes since previous snapshot
 
-- No status/redirect changes detected.
+- CHANGED osint-framework: reachable → network-error
+- CHANGED inteltechniques-search-tools: reachable → network-error
+- CHANGED netlas: reachable → network-error
+- CHANGED receita-federal-cnpj-open-data: automation-blocked → network-error
